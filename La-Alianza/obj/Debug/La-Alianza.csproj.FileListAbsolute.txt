@@ -1,0 +1,12 @@
+C:\Users\iog9\Documents\Codiguito\La-Alianza\bin\Debug\La-Alianza.exe.config
+C:\Users\iog9\Documents\Codiguito\La-Alianza\bin\Debug\La-Alianza.exe
+C:\Users\iog9\Documents\Codiguito\La-Alianza\bin\Debug\La-Alianza.pdb
+C:\Users\iog9\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.csproj.AssemblyReference.cache
+C:\Users\iog9\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.Properties.Resources.resources
+C:\Users\iog9\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.Start.resources
+C:\Users\iog9\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.csproj.GenerateResource.cache
+C:\Users\iog9\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.csproj.CoreCompileInputs.cache
+C:\Users\iog9\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.exe
+C:\Users\iog9\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.pdb
+C:\Users\iog9\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.LogIn.resources
+C:\Users\iog9\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.Register.resources
