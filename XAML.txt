@@ -1,0 +1,55 @@
+using System;
+using System.IO;
+using System.Windows.Forms;
+using System.Windows.Forms.Integration; // Necesario para ElementHost
+using System.Windows; // Necesario para la inicialización del XAML
+using System.Windows.Controls; // Para controles WPF
+using System.Xml; // Necesario para XmlReader
+
+namespace La_Alianza
+{
+    public partial class Start : Form
+    {
+        public Start()
+        {
+            InitializeComponent();
+            InitializeWpfControl();
+        }
+
+        private void BTN_Register_Click(object sender, EventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+            this.Hide();
+        }
+
+        private void InitializeWpfControl()
+        {
+            // Crear un recurso de tipo XAML
+            string xamlString = @"
+                <UserControl xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
+                            xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'>
+                    <Grid>
+                        <TextBox Text='Hola desde WPF con XAML' Width='200' Height='50'/>
+                    </Grid>
+                </UserControl>";
+
+            // Cargar el XAML en un objeto WPF
+            using (var stringReader = new StringReader(xamlString))
+            using (var xmlReader = XmlReader.Create(stringReader))
+            {
+                var frameworkElement = (FrameworkElement)System.Windows.Markup.XamlReader.Load(xmlReader);
+
+                // Crear y configurar el ElementHost
+                var elementHost = new ElementHost
+                {
+                    Dock = DockStyle.Fill,
+                    Child = frameworkElement // Usa FrameworkElement en lugar de UserControl
+                };
+
+                // Agregar el ElementHost al formulario
+                this.Controls.Add(elementHost);
+            }
+        }
+    }
+}
