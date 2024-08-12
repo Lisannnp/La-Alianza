@@ -14,9 +14,6 @@ namespace La_Alianza
             InitializeComponent();
             InitAirborneFont();
         }
-
-        private void StartForm_Load(object sender, EventArgs e)
-        {}
         private void BTN_Register_Click_1(object sender, EventArgs e)
         {
             RegisterForm Register = new RegisterForm();
@@ -47,15 +44,14 @@ namespace La_Alianza
             pfc.AddMemoryFont(data, fontLength);
             Marshal.FreeCoTaskMem(data);
 
+            FontStyle boldStyle = FontStyle.Bold;
 
             //Agregar los objetos que la vayan a usar
-            BTN_Exit.Font = new Font(pfc.Families[0], BTN_Exit.Font.Size);
-            BTN_LogIn.Font = new Font(pfc.Families[0], BTN_LogIn.Font.Size);
-            BTN_Register.Font = new Font(pfc.Families[0], BTN_Register.Font.Size);
+            BTN_Exit.Font = new Font(pfc.Families[0], 10, boldStyle);
+            BTN_LogIn.Font = new Font(pfc.Families[0], 10, boldStyle);
+            BTN_Register.Font = new Font(pfc.Families[0], 10, boldStyle);
 
-            float titleFontSize = 46.0f;
-            FontStyle fontStyle = FontStyle.Bold;
-            LBL_Title.Font = new Font(pfc.Families[0], titleFontSize, fontStyle);
+            LBL_Title.Font = new Font(pfc.Families[0], 45, boldStyle);
         }
     }
 }

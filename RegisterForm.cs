@@ -50,23 +50,22 @@ namespace La_Alianza
             pfc.AddMemoryFont(data, fontLength);
             Marshal.FreeCoTaskMem(data);
 
+            FontStyle boldStyle = FontStyle.Bold;
 
             //Agregar los objetos que la vayan a usar
-            BTN_Exit.Font = new Font(pfc.Families[0], BTN_Exit.Font.Size);
-            BTN_LogIn.Font = new Font(pfc.Families[0], BTN_LogIn.Font.Size);
-            BTN_Start.Font = new Font(pfc.Families[0], BTN_Start.Font.Size);
-            LBL_Name.Font = new Font(pfc.Families[0], LBL_Name.Font.Size);
-            LBL_Password.Font = new Font(pfc.Families[0], LBL_Password.Font.Size);
-            LBL_Rol.Font = new Font(pfc.Families[0], LBL_Rol.Font.Size);
-            LBL_Base.Font = new Font(pfc.Families[0], LBL_Base.Font.Size);
-            TXB_Name.Font = new Font(pfc.Families[0], TXB_Name.Font.Size);
-            TXB_Password.Font = new Font(pfc.Families[0], TXB_Password.Font.Size);
-            TXB_Base.Font = new Font(pfc.Families[0], TXB_Base.Font.Size);
-            
+            BTN_Exit.Font = new Font(pfc.Families[0], 10, boldStyle);
+            BTN_LogIn.Font = new Font(pfc.Families[0], 10, boldStyle);
+            BTN_Start.Font = new Font(pfc.Families[0], 10, boldStyle);
+            LBL_Name.Font = new Font(pfc.Families[0], 12, boldStyle);
+            LBL_Password.Font = new Font(pfc.Families[0], 12, boldStyle);
+            LBL_Rol.Font = new Font(pfc.Families[0], 12, boldStyle);
+            LBL_Base.Font = new Font(pfc.Families[0], 12, boldStyle);
+            TXB_Name.Font = new Font(pfc.Families[0], 12);
+            TXB_Password.Font = new Font(pfc.Families[0], 12);
+            TXB_Base.Font = new Font(pfc.Families[0], 12);
+            CMB_Rol.Font = new Font(pfc.Families[0], 12);
 
-            float titleFontSize = 46.0f;
-            FontStyle fontStyle = FontStyle.Bold;
-            LBL_Title.Font = new Font(pfc.Families[0], titleFontSize, fontStyle);
+            LBL_Title.Font = new Font(pfc.Families[0], 45, boldStyle);
         }
     }
 }

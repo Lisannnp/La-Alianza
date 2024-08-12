@@ -48,7 +48,7 @@ namespace La_Alianza
             this.BTN_LogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_LogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.BTN_LogIn.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BTN_LogIn.Location = new System.Drawing.Point(137, 411);
+            this.BTN_LogIn.Location = new System.Drawing.Point(137, 416);
             this.BTN_LogIn.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_LogIn.Name = "BTN_LogIn";
             this.BTN_LogIn.Size = new System.Drawing.Size(160, 30);
@@ -64,9 +64,9 @@ namespace La_Alianza
             this.BTN_Register.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.BTN_Register.FlatAppearance.BorderSize = 0;
             this.BTN_Register.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTN_Register.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Register.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BTN_Register.Location = new System.Drawing.Point(137, 371);
+            this.BTN_Register.Location = new System.Drawing.Point(137, 376);
             this.BTN_Register.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_Register.Name = "BTN_Register";
             this.BTN_Register.Size = new System.Drawing.Size(160, 30);
@@ -84,7 +84,7 @@ namespace La_Alianza
             this.BTN_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.BTN_Exit.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BTN_Exit.Location = new System.Drawing.Point(137, 451);
+            this.BTN_Exit.Location = new System.Drawing.Point(137, 456);
             this.BTN_Exit.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_Exit.Name = "BTN_Exit";
             this.BTN_Exit.Size = new System.Drawing.Size(160, 30);
@@ -100,7 +100,7 @@ namespace La_Alianza
             this.LBL_Title.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBL_Title.Font = new System.Drawing.Font("Impact", 40F, System.Drawing.FontStyle.Bold);
             this.LBL_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.LBL_Title.Location = new System.Drawing.Point(84, 43);
+            this.LBL_Title.Location = new System.Drawing.Point(84, 38);
             this.LBL_Title.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_Title.Name = "LBL_Title";
             this.LBL_Title.Size = new System.Drawing.Size(265, 66);
@@ -121,15 +121,15 @@ namespace La_Alianza
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.040816F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.4898F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.040816F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.77551F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.122449F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.163265F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.163265F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.163265F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.040816F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(434, 511);
             this.tableLayoutPanel1.TabIndex = 21;
             // 
@@ -138,7 +138,7 @@ namespace La_Alianza
             this.PCB_Start.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PCB_Start.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.PCB_Start.Image = global::La_Alianza.Properties.Resources.LOGO;
-            this.PCB_Start.Location = new System.Drawing.Point(120, 142);
+            this.PCB_Start.Location = new System.Drawing.Point(120, 144);
             this.PCB_Start.Margin = new System.Windows.Forms.Padding(0);
             this.PCB_Start.Name = "PCB_Start";
             this.PCB_Start.Size = new System.Drawing.Size(194, 194);

@@ -82,3 +82,34 @@ L:\Codiguito\6to\La Alianza\bin\Debug\La-Alianza.pdb
 L:\Codiguito\6to\La Alianza\bin\Debug\Scintilla.NET.dll
 L:\Codiguito\6to\La Alianza\bin\Debug\Scintilla.NET.xml
 L:\Codiguito\6to\La Alianza\obj\Debug\La-Alianza.csproj.CopyComplete
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\bin\Debug\runtimes\win-x64\native\Lexilla.dll
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\bin\Debug\runtimes\win-x64\native\Scintilla.dll
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\bin\Debug\runtimes\win-x86\native\Lexilla.dll
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\bin\Debug\runtimes\win-x86\native\Scintilla.dll
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\bin\Debug\La-Alianza.exe.config
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\bin\Debug\La-Alianza.exe
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\bin\Debug\La-Alianza.pdb
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\bin\Debug\Scintilla.NET.dll
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\bin\Debug\Scintilla.NET.xml
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.csproj.AssemblyReference.cache
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.BaseStatusForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.CreateOperationForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.DistributorForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.EnlistSoldierForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.GeneralForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.GunsmithForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.HealerForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.CreateItemForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.LogInForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.CreateSquadForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.OperationForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.Properties.Resources.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.RegisterForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.ScientistForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.SquadControlForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.StartForm.resources
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.csproj.GenerateResource.cache
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.csproj.CoreCompileInputs.cache
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.csproj.CopyComplete
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.exe
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La-Alianza.pdb

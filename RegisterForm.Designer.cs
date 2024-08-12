@@ -86,7 +86,7 @@ namespace La_Alianza
             this.TXB_Password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.TXB_Password.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TXB_Password.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.TXB_Password.Location = new System.Drawing.Point(138, 206);
+            this.TXB_Password.Location = new System.Drawing.Point(138, 209);
             this.TXB_Password.Margin = new System.Windows.Forms.Padding(0);
             this.TXB_Password.Name = "TXB_Password";
             this.TXB_Password.Size = new System.Drawing.Size(158, 13);
@@ -182,7 +182,7 @@ namespace La_Alianza
             this.TXB_Base.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.TXB_Base.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TXB_Base.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.TXB_Base.Location = new System.Drawing.Point(138, 336);
+            this.TXB_Base.Location = new System.Drawing.Point(138, 339);
             this.TXB_Base.Margin = new System.Windows.Forms.Padding(0);
             this.TXB_Base.Name = "TXB_Base";
             this.TXB_Base.Size = new System.Drawing.Size(158, 13);
@@ -214,12 +214,12 @@ namespace La_Alianza
             this.LBL_Title.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBL_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
             this.LBL_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.LBL_Title.Location = new System.Drawing.Point(95, 0);
+            this.LBL_Title.Location = new System.Drawing.Point(87, 0);
             this.LBL_Title.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_Title.Name = "LBL_Title";
-            this.LBL_Title.Size = new System.Drawing.Size(183, 91);
+            this.LBL_Title.Size = new System.Drawing.Size(242, 91);
             this.LBL_Title.TabIndex = 37;
-            this.LBL_Title.Text = "Register";
+            this.LBL_Title.Text = "REGISTER";
             this.LBL_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TableLayout1
@@ -283,8 +283,8 @@ namespace La_Alianza
             // 
             this.TableLayout2.BackColor = System.Drawing.Color.Transparent;
             this.TableLayout2.ColumnCount = 2;
-            this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.8894F));
-            this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 78.1106F));
+            this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.04608F));
+            this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.95392F));
             this.TableLayout2.Controls.Add(this.LBL_Title, 1, 0);
             this.TableLayout2.Controls.Add(this.pictureBox1, 0, 0);
             this.TableLayout2.Location = new System.Drawing.Point(0, 0);
@@ -300,7 +300,7 @@ namespace La_Alianza
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::La_Alianza.Properties.Resources.LOGO;
-            this.pictureBox1.Location = new System.Drawing.Point(33, 18);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 18);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(20, 18, 0, 24);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(49, 49);
