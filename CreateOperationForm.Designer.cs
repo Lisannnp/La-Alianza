@@ -42,10 +42,9 @@
             this.LBL_Title.AutoSize = true;
             this.LBL_Title.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBL_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
-            this.LBL_Title.Location = new System.Drawing.Point(6, 9);
-            this.LBL_Title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Title.Location = new System.Drawing.Point(4, 6);
             this.LBL_Title.Name = "LBL_Title";
-            this.LBL_Title.Size = new System.Drawing.Size(525, 73);
+            this.LBL_Title.Size = new System.Drawing.Size(351, 51);
             this.LBL_Title.TabIndex = 47;
             this.LBL_Title.Text = "Create Operation";
             this.LBL_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -54,29 +53,26 @@
             // 
             this.LBL_Name.AutoSize = true;
             this.LBL_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.LBL_Name.Location = new System.Drawing.Point(148, 127);
-            this.LBL_Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Name.Location = new System.Drawing.Point(99, 83);
             this.LBL_Name.Name = "LBL_Name";
-            this.LBL_Name.Size = new System.Drawing.Size(89, 30);
+            this.LBL_Name.Size = new System.Drawing.Size(62, 22);
             this.LBL_Name.TabIndex = 52;
             this.LBL_Name.Text = "Name:";
             this.LBL_Name.UseWaitCursor = true;
             // 
             // TXB_Name
             // 
-            this.TXB_Name.Location = new System.Drawing.Point(153, 166);
-            this.TXB_Name.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TXB_Name.Location = new System.Drawing.Point(102, 108);
             this.TXB_Name.Name = "TXB_Name";
-            this.TXB_Name.Size = new System.Drawing.Size(235, 26);
+            this.TXB_Name.Size = new System.Drawing.Size(158, 20);
             this.TXB_Name.TabIndex = 51;
             // 
             // BTN_Create
             // 
             this.BTN_Create.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_Create.Location = new System.Drawing.Point(186, 314);
-            this.BTN_Create.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTN_Create.Location = new System.Drawing.Point(124, 204);
             this.BTN_Create.Name = "BTN_Create";
-            this.BTN_Create.Size = new System.Drawing.Size(165, 38);
+            this.BTN_Create.Size = new System.Drawing.Size(110, 25);
             this.BTN_Create.TabIndex = 50;
             this.BTN_Create.Text = "Create";
             this.BTN_Create.UseVisualStyleBackColor = true;
@@ -84,20 +80,18 @@
             // CMB_Difficulty
             // 
             this.CMB_Difficulty.FormattingEnabled = true;
-            this.CMB_Difficulty.Location = new System.Drawing.Point(153, 262);
-            this.CMB_Difficulty.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CMB_Difficulty.Location = new System.Drawing.Point(102, 170);
             this.CMB_Difficulty.Name = "CMB_Difficulty";
-            this.CMB_Difficulty.Size = new System.Drawing.Size(235, 28);
+            this.CMB_Difficulty.Size = new System.Drawing.Size(158, 21);
             this.CMB_Difficulty.TabIndex = 49;
             // 
             // LBL_Difficulty
             // 
             this.LBL_Difficulty.AutoSize = true;
             this.LBL_Difficulty.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.LBL_Difficulty.Location = new System.Drawing.Point(147, 224);
-            this.LBL_Difficulty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Difficulty.Location = new System.Drawing.Point(98, 146);
             this.LBL_Difficulty.Name = "LBL_Difficulty";
-            this.LBL_Difficulty.Size = new System.Drawing.Size(118, 30);
+            this.LBL_Difficulty.Size = new System.Drawing.Size(83, 22);
             this.LBL_Difficulty.TabIndex = 48;
             this.LBL_Difficulty.Text = "Difficulty:";
             this.LBL_Difficulty.UseWaitCursor = true;
@@ -105,10 +99,9 @@
             // BTN_Exit
             // 
             this.BTN_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_Exit.Location = new System.Drawing.Point(152, 378);
-            this.BTN_Exit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTN_Exit.Location = new System.Drawing.Point(101, 246);
             this.BTN_Exit.Name = "BTN_Exit";
-            this.BTN_Exit.Size = new System.Drawing.Size(236, 54);
+            this.BTN_Exit.Size = new System.Drawing.Size(157, 35);
             this.BTN_Exit.TabIndex = 53;
             this.BTN_Exit.Text = "Exit";
             this.BTN_Exit.UseVisualStyleBackColor = true;
@@ -116,10 +109,10 @@
             // 
             // CreateOperationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(535, 446);
+            this.ClientSize = new System.Drawing.Size(434, 411);
             this.Controls.Add(this.BTN_Exit);
             this.Controls.Add(this.LBL_Name);
             this.Controls.Add(this.TXB_Name);
@@ -127,6 +120,7 @@
             this.Controls.Add(this.CMB_Difficulty);
             this.Controls.Add(this.LBL_Difficulty);
             this.Controls.Add(this.LBL_Title);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CreateOperationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CreateOpeationForm";

@@ -32,7 +32,7 @@ namespace La_Alianza
         {
             Application.Exit();
         }
-    
+
         private void InitAirborneFont()
         {
             PrivateFontCollection pfc = new PrivateFontCollection();
@@ -52,6 +52,6 @@ namespace La_Alianza
             BTN_Register.Font = new Font(pfc.Families[0], 10, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 45, boldStyle);
-        }
+        }   
     }
 }

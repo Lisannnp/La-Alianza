@@ -44,11 +44,11 @@ namespace La_Alianza
             this.TableLayout1 = new System.Windows.Forms.TableLayoutPanel();
             this.FlowLayout1 = new System.Windows.Forms.FlowLayoutPanel();
             this.TableLayout2 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PCB_Logo = new System.Windows.Forms.PictureBox();
             this.TableLayout1.SuspendLayout();
             this.FlowLayout1.SuspendLayout();
             this.TableLayout2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PCB_Logo)).BeginInit();
             this.SuspendLayout();
             // 
             // BTN_LogIn
@@ -214,7 +214,7 @@ namespace La_Alianza
             this.LBL_Title.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBL_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
             this.LBL_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.LBL_Title.Location = new System.Drawing.Point(87, 0);
+            this.LBL_Title.Location = new System.Drawing.Point(86, 0);
             this.LBL_Title.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_Title.Name = "LBL_Title";
             this.LBL_Title.Size = new System.Drawing.Size(242, 91);
@@ -286,7 +286,7 @@ namespace La_Alianza
             this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.04608F));
             this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.95392F));
             this.TableLayout2.Controls.Add(this.LBL_Title, 1, 0);
-            this.TableLayout2.Controls.Add(this.pictureBox1, 0, 0);
+            this.TableLayout2.Controls.Add(this.PCB_Logo, 0, 0);
             this.TableLayout2.Location = new System.Drawing.Point(0, 0);
             this.TableLayout2.Margin = new System.Windows.Forms.Padding(0);
             this.TableLayout2.Name = "TableLayout2";
@@ -295,18 +295,18 @@ namespace La_Alianza
             this.TableLayout2.Size = new System.Drawing.Size(434, 91);
             this.TableLayout2.TabIndex = 0;
             // 
-            // pictureBox1
+            // PCB_Logo
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::La_Alianza.Properties.Resources.LOGO;
-            this.pictureBox1.Location = new System.Drawing.Point(29, 18);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(20, 18, 0, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(49, 49);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 38;
-            this.pictureBox1.TabStop = false;
+            this.PCB_Logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.PCB_Logo.BackColor = System.Drawing.Color.Transparent;
+            this.PCB_Logo.Image = global::La_Alianza.Properties.Resources.LOGO;
+            this.PCB_Logo.Location = new System.Drawing.Point(28, 18);
+            this.PCB_Logo.Margin = new System.Windows.Forms.Padding(20, 18, 0, 24);
+            this.PCB_Logo.Name = "PCB_Logo";
+            this.PCB_Logo.Size = new System.Drawing.Size(49, 49);
+            this.PCB_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PCB_Logo.TabIndex = 38;
+            this.PCB_Logo.TabStop = false;
             // 
             // RegisterForm
             // 
@@ -324,7 +324,7 @@ namespace La_Alianza
             this.FlowLayout1.ResumeLayout(false);
             this.TableLayout2.ResumeLayout(false);
             this.TableLayout2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PCB_Logo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -345,6 +345,6 @@ namespace La_Alianza
         private System.Windows.Forms.TableLayoutPanel TableLayout1;
         private System.Windows.Forms.FlowLayoutPanel FlowLayout1;
         private System.Windows.Forms.TableLayoutPanel TableLayout2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox PCB_Logo;
     }
 }

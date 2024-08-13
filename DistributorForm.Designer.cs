@@ -41,10 +41,9 @@
             // BTN_Allocate
             // 
             this.BTN_Allocate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_Allocate.Location = new System.Drawing.Point(206, 388);
-            this.BTN_Allocate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTN_Allocate.Location = new System.Drawing.Point(137, 252);
             this.BTN_Allocate.Name = "BTN_Allocate";
-            this.BTN_Allocate.Size = new System.Drawing.Size(165, 38);
+            this.BTN_Allocate.Size = new System.Drawing.Size(110, 25);
             this.BTN_Allocate.TabIndex = 41;
             this.BTN_Allocate.Text = "Allocate";
             this.BTN_Allocate.UseVisualStyleBackColor = true;
@@ -52,49 +51,44 @@
             // CMB_Base
             // 
             this.CMB_Base.FormattingEnabled = true;
-            this.CMB_Base.Location = new System.Drawing.Point(172, 328);
-            this.CMB_Base.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CMB_Base.Location = new System.Drawing.Point(115, 213);
             this.CMB_Base.Name = "CMB_Base";
-            this.CMB_Base.Size = new System.Drawing.Size(235, 28);
+            this.CMB_Base.Size = new System.Drawing.Size(158, 21);
             this.CMB_Base.TabIndex = 40;
             // 
             // LBL_Base
             // 
             this.LBL_Base.AutoSize = true;
             this.LBL_Base.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.LBL_Base.Location = new System.Drawing.Point(166, 289);
-            this.LBL_Base.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Base.Location = new System.Drawing.Point(111, 188);
             this.LBL_Base.Name = "LBL_Base";
-            this.LBL_Base.Size = new System.Drawing.Size(78, 30);
+            this.LBL_Base.Size = new System.Drawing.Size(56, 22);
             this.LBL_Base.TabIndex = 39;
             this.LBL_Base.Text = "Base:";
             this.LBL_Base.UseWaitCursor = true;
             // 
             // TXB_Base
             // 
-            this.TXB_Base.Location = new System.Drawing.Point(172, 328);
-            this.TXB_Base.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TXB_Base.Location = new System.Drawing.Point(115, 213);
             this.TXB_Base.Name = "TXB_Base";
-            this.TXB_Base.Size = new System.Drawing.Size(235, 26);
+            this.TXB_Base.Size = new System.Drawing.Size(158, 20);
             this.TXB_Base.TabIndex = 38;
             // 
             // CMB_Cargament
             // 
             this.CMB_Cargament.FormattingEnabled = true;
-            this.CMB_Cargament.Location = new System.Drawing.Point(170, 220);
-            this.CMB_Cargament.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CMB_Cargament.Location = new System.Drawing.Point(113, 143);
             this.CMB_Cargament.Name = "CMB_Cargament";
-            this.CMB_Cargament.Size = new System.Drawing.Size(235, 28);
+            this.CMB_Cargament.Size = new System.Drawing.Size(158, 21);
             this.CMB_Cargament.TabIndex = 37;
             // 
             // LBL_Cargament
             // 
             this.LBL_Cargament.AutoSize = true;
             this.LBL_Cargament.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.LBL_Cargament.Location = new System.Drawing.Point(166, 182);
-            this.LBL_Cargament.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Cargament.Location = new System.Drawing.Point(111, 118);
             this.LBL_Cargament.Name = "LBL_Cargament";
-            this.LBL_Cargament.Size = new System.Drawing.Size(147, 30);
+            this.LBL_Cargament.Size = new System.Drawing.Size(103, 22);
             this.LBL_Cargament.TabIndex = 36;
             this.LBL_Cargament.Text = "Cargament:";
             this.LBL_Cargament.UseWaitCursor = true;
@@ -104,10 +98,9 @@
             this.LBL_Title.AutoSize = true;
             this.LBL_Title.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBL_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
-            this.LBL_Title.Location = new System.Drawing.Point(156, 54);
-            this.LBL_Title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Title.Location = new System.Drawing.Point(104, 35);
             this.LBL_Title.Name = "LBL_Title";
-            this.LBL_Title.Size = new System.Drawing.Size(261, 73);
+            this.LBL_Title.Size = new System.Drawing.Size(177, 51);
             this.LBL_Title.TabIndex = 35;
             this.LBL_Title.Text = "Allocate";
             this.LBL_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -115,10 +108,9 @@
             // BTN_LogOut
             // 
             this.BTN_LogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_LogOut.Location = new System.Drawing.Point(170, 477);
-            this.BTN_LogOut.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTN_LogOut.Location = new System.Drawing.Point(113, 310);
             this.BTN_LogOut.Name = "BTN_LogOut";
-            this.BTN_LogOut.Size = new System.Drawing.Size(237, 54);
+            this.BTN_LogOut.Size = new System.Drawing.Size(158, 35);
             this.BTN_LogOut.TabIndex = 42;
             this.BTN_LogOut.Text = "Log Out";
             this.BTN_LogOut.UseVisualStyleBackColor = true;
@@ -126,10 +118,10 @@
             // 
             // DistributorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(576, 555);
+            this.ClientSize = new System.Drawing.Size(434, 411);
             this.Controls.Add(this.BTN_LogOut);
             this.Controls.Add(this.BTN_Allocate);
             this.Controls.Add(this.CMB_Base);
@@ -138,7 +130,6 @@
             this.Controls.Add(this.CMB_Cargament);
             this.Controls.Add(this.LBL_Cargament);
             this.Controls.Add(this.LBL_Title);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "DistributorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Distributor";

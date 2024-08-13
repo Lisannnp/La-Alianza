@@ -43,20 +43,18 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(152, 328);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dataGridView1.Location = new System.Drawing.Point(101, 213);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(345, 231);
+            this.dataGridView1.Size = new System.Drawing.Size(230, 150);
             this.dataGridView1.TabIndex = 38;
             // 
             // BTN_CreateSquad
             // 
             this.BTN_CreateSquad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_CreateSquad.Location = new System.Drawing.Point(242, 569);
-            this.BTN_CreateSquad.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTN_CreateSquad.Location = new System.Drawing.Point(161, 370);
             this.BTN_CreateSquad.Name = "BTN_CreateSquad";
-            this.BTN_CreateSquad.Size = new System.Drawing.Size(165, 38);
+            this.BTN_CreateSquad.Size = new System.Drawing.Size(110, 25);
             this.BTN_CreateSquad.TabIndex = 37;
             this.BTN_CreateSquad.Text = "Create Squad";
             this.BTN_CreateSquad.UseVisualStyleBackColor = true;
@@ -64,10 +62,9 @@
             // BTN_Plus
             // 
             this.BTN_Plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_Plus.Location = new System.Drawing.Point(473, 197);
-            this.BTN_Plus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTN_Plus.Location = new System.Drawing.Point(315, 128);
             this.BTN_Plus.Name = "BTN_Plus";
-            this.BTN_Plus.Size = new System.Drawing.Size(32, 32);
+            this.BTN_Plus.Size = new System.Drawing.Size(21, 21);
             this.BTN_Plus.TabIndex = 36;
             this.BTN_Plus.Text = "+";
             this.BTN_Plus.UseVisualStyleBackColor = true;
@@ -76,10 +73,9 @@
             // BTN_Add
             // 
             this.BTN_Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_Add.Location = new System.Drawing.Point(242, 246);
-            this.BTN_Add.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTN_Add.Location = new System.Drawing.Point(161, 160);
             this.BTN_Add.Name = "BTN_Add";
-            this.BTN_Add.Size = new System.Drawing.Size(165, 38);
+            this.BTN_Add.Size = new System.Drawing.Size(110, 25);
             this.BTN_Add.TabIndex = 34;
             this.BTN_Add.Text = "Add";
             this.BTN_Add.UseVisualStyleBackColor = true;
@@ -87,20 +83,18 @@
             // CMB_Soldier
             // 
             this.CMB_Soldier.FormattingEnabled = true;
-            this.CMB_Soldier.Location = new System.Drawing.Point(209, 197);
-            this.CMB_Soldier.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CMB_Soldier.Location = new System.Drawing.Point(139, 128);
             this.CMB_Soldier.Name = "CMB_Soldier";
-            this.CMB_Soldier.Size = new System.Drawing.Size(235, 28);
+            this.CMB_Soldier.Size = new System.Drawing.Size(158, 21);
             this.CMB_Soldier.TabIndex = 33;
             // 
             // LBL_Soldier
             // 
             this.LBL_Soldier.AutoSize = true;
             this.LBL_Soldier.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.LBL_Soldier.Location = new System.Drawing.Point(203, 159);
-            this.LBL_Soldier.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Soldier.Location = new System.Drawing.Point(135, 103);
             this.LBL_Soldier.Name = "LBL_Soldier";
-            this.LBL_Soldier.Size = new System.Drawing.Size(100, 30);
+            this.LBL_Soldier.Size = new System.Drawing.Size(71, 22);
             this.LBL_Soldier.TabIndex = 32;
             this.LBL_Soldier.Text = "Soldier:";
             this.LBL_Soldier.UseWaitCursor = true;
@@ -108,10 +102,9 @@
             // BTN_General
             // 
             this.BTN_General.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_General.Location = new System.Drawing.Point(206, 693);
-            this.BTN_General.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTN_General.Location = new System.Drawing.Point(137, 450);
             this.BTN_General.Name = "BTN_General";
-            this.BTN_General.Size = new System.Drawing.Size(237, 54);
+            this.BTN_General.Size = new System.Drawing.Size(158, 35);
             this.BTN_General.TabIndex = 31;
             this.BTN_General.Text = "Back to General";
             this.BTN_General.UseVisualStyleBackColor = true;
@@ -122,10 +115,9 @@
             this.LBL_Title.AutoSize = true;
             this.LBL_Title.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBL_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
-            this.LBL_Title.Location = new System.Drawing.Point(111, 35);
-            this.LBL_Title.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Title.Location = new System.Drawing.Point(74, 23);
             this.LBL_Title.Name = "LBL_Title";
-            this.LBL_Title.Size = new System.Drawing.Size(429, 73);
+            this.LBL_Title.Size = new System.Drawing.Size(287, 51);
             this.LBL_Title.TabIndex = 39;
             this.LBL_Title.Text = "Create Squad";
             this.LBL_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -133,10 +125,9 @@
             // BTN_SquadControl
             // 
             this.BTN_SquadControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_SquadControl.Location = new System.Drawing.Point(206, 629);
-            this.BTN_SquadControl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BTN_SquadControl.Location = new System.Drawing.Point(137, 409);
             this.BTN_SquadControl.Name = "BTN_SquadControl";
-            this.BTN_SquadControl.Size = new System.Drawing.Size(237, 54);
+            this.BTN_SquadControl.Size = new System.Drawing.Size(158, 35);
             this.BTN_SquadControl.TabIndex = 40;
             this.BTN_SquadControl.Text = "Go to Squad Control";
             this.BTN_SquadControl.UseVisualStyleBackColor = true;
@@ -144,10 +135,10 @@
             // 
             // CreateSquadForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(651, 786);
+            this.ClientSize = new System.Drawing.Size(434, 511);
             this.Controls.Add(this.BTN_SquadControl);
             this.Controls.Add(this.LBL_Title);
             this.Controls.Add(this.dataGridView1);
@@ -157,6 +148,7 @@
             this.Controls.Add(this.CMB_Soldier);
             this.Controls.Add(this.LBL_Soldier);
             this.Controls.Add(this.BTN_General);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CreateSquadForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MakeSquad";

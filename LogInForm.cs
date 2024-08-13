@@ -46,7 +46,7 @@ namespace La_Alianza
 
             //Agregar los objetos que la vayan a usar
             BTN_Exit.Font = new Font(pfc.Families[0], 10, boldStyle);
-            BTN_LogIn.Font = new Font(pfc.Families[0], 8, boldStyle);
+            BTN_LogIn.Font = new Font(pfc.Families[0], 9, boldStyle);
             BTN_Start.Font = new Font(pfc.Families[0], 10, boldStyle);
             LBL_Name.Font = new Font(pfc.Families[0], 12, boldStyle);
             LBL_Password.Font = new Font(pfc.Families[0], 12, boldStyle);
@@ -55,6 +55,13 @@ namespace La_Alianza
 
 
             LBL_Title.Font = new Font(pfc.Families[0], 45, boldStyle);
+        }
+
+        private void BTN_LogIn_Click(object sender, EventArgs e)
+        {
+            GeneralForm General = new GeneralForm();
+            General.Show();
+            this.Hide();
         }
     }
 }
