@@ -52,18 +52,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base.cs" />
+    <Compile Include="BaseMember.cs" />
     <Compile Include="BaseStatusForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BaseStatusForm.Designer.cs">
       <DependentUpon>BaseStatusForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cargament.cs" />
     <Compile Include="CreateOperationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CreateOperationForm.Designer.cs">
       <DependentUpon>CreateOperationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Distributor.cs" />
     <Compile Include="DistributorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,18 +80,21 @@
     <Compile Include="EnlistSoldierForm.Designer.cs">
       <DependentUpon>EnlistSoldierForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="General.cs" />
     <Compile Include="GeneralForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GeneralForm.Designer.cs">
       <DependentUpon>GeneralForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gunsmith.cs" />
     <Compile Include="GunsmithForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GunsmithForm.Designer.cs">
       <DependentUpon>GunsmithForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Healer.cs" />
     <Compile Include="HealerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +107,8 @@
     <Compile Include="CreateItemForm.Designer.cs">
       <DependentUpon>CreateItemForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Item.cs" />
+    <Compile Include="ListGlosary.cs" />
     <Compile Include="LogInForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,12 +121,14 @@
     <Compile Include="CreateSquadForm.Designer.cs">
       <DependentUpon>CreateSquadForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Operation.cs" />
     <Compile Include="OperationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="OperationForm.Designer.cs">
       <DependentUpon>OperationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -129,12 +140,15 @@
     <Compile Include="RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Scientist.cs" />
     <Compile Include="ScientistForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ScientistForm.Designer.cs">
       <DependentUpon>ScientistForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Soldier.cs" />
+    <Compile Include="Squad.cs" />
     <Compile Include="SquadControlForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +163,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
     <EmbeddedResource Include="BaseStatusForm.resx">
       <DependentUpon>BaseStatusForm.cs</DependentUpon>
     </EmbeddedResource>
