@@ -18,7 +18,6 @@ namespace La_Alianza
             {
                 components.Dispose();
             }
-            base.Dispose(disposing);
         }
 
         #region Windows Form Designer generated code
