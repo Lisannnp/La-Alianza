@@ -54,78 +54,77 @@
   <ItemGroup>
     <Compile Include="Base.cs" />
     <Compile Include="BaseMember.cs" />
-    <Compile Include="BaseStatusForm.cs">
+    <Compile Include="forms\BaseStatusForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BaseStatusForm.Designer.cs">
+    <Compile Include="forms\BaseStatusForm.Designer.cs">
       <DependentUpon>BaseStatusForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Cargament.cs" />
-    <Compile Include="CreateOperationForm.cs">
+    <Compile Include="forms\CreateOperationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateOperationForm.Designer.cs">
+    <Compile Include="forms\CreateOperationForm.Designer.cs">
       <DependentUpon>CreateOperationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Distributor.cs" />
-    <Compile Include="DistributorForm.cs">
+    <Compile Include="forms\DistributorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DistributorForm.Designer.cs">
+    <Compile Include="forms\DistributorForm.Designer.cs">
       <DependentUpon>DistributorForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="EnlistSoldierForm.cs">
+    <Compile Include="forms\EnlistSoldierForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EnlistSoldierForm.Designer.cs">
+    <Compile Include="forms\EnlistSoldierForm.Designer.cs">
       <DependentUpon>EnlistSoldierForm.cs</DependentUpon>
     </Compile>
     <Compile Include="General.cs" />
-    <Compile Include="GeneralForm.cs">
+    <Compile Include="forms\GeneralForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GeneralForm.Designer.cs">
+    <Compile Include="forms\GeneralForm.Designer.cs">
       <DependentUpon>GeneralForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Gunsmith.cs" />
-    <Compile Include="GunsmithForm.cs">
+    <Compile Include="forms\GunsmithForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GunsmithForm.Designer.cs">
+    <Compile Include="forms\GunsmithForm.Designer.cs">
       <DependentUpon>GunsmithForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Healer.cs" />
-    <Compile Include="HealerForm.cs">
+    <Compile Include="forms\HealerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HealerForm.Designer.cs">
+    <Compile Include="forms\HealerForm.Designer.cs">
       <DependentUpon>HealerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CreateItemForm.cs">
+    <Compile Include="forms\CreateItemForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateItemForm.Designer.cs">
+    <Compile Include="forms\CreateItemForm.Designer.cs">
       <DependentUpon>CreateItemForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Item.cs" />
     <Compile Include="ListGlosary.cs" />
-    <Compile Include="LogInForm.cs">
+    <Compile Include="forms\LogInForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LogInForm.Designer.cs">
+    <Compile Include="forms\LogInForm.Designer.cs">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CreateSquadForm.cs">
+    <Compile Include="forms\CreateSquadForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateSquadForm.Designer.cs">
+    <Compile Include="forms\CreateSquadForm.Designer.cs">
       <DependentUpon>CreateSquadForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Operation.cs" />
-    <Compile Include="OperationForm.cs">
+    <Compile Include="forms\OperationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OperationForm.Designer.cs">
+    <Compile Include="forms\OperationForm.Designer.cs">
       <DependentUpon>OperationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Person.cs" />
@@ -134,10 +133,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="RegisterForm.cs">
+    <Compile Include="forms\RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegisterForm.Designer.cs">
+    <Compile Include="forms\RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Scientist.cs" />
@@ -149,52 +148,52 @@
     </Compile>
     <Compile Include="Soldier.cs" />
     <Compile Include="Squad.cs" />
-    <Compile Include="SquadControlForm.cs">
+    <Compile Include="forms\SquadControlForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SquadControlForm.Designer.cs">
+    <Compile Include="forms\SquadControlForm.Designer.cs">
       <DependentUpon>SquadControlForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StartForm.cs">
+    <Compile Include="forms\StartForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StartForm.Designer.cs">
+    <Compile Include="forms\StartForm.Designer.cs">
       <DependentUpon>StartForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
-    <EmbeddedResource Include="BaseStatusForm.resx">
+    <EmbeddedResource Include="forms\BaseStatusForm.resx">
       <DependentUpon>BaseStatusForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreateOperationForm.resx">
+    <EmbeddedResource Include="forms\CreateOperationForm.resx">
       <DependentUpon>CreateOperationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DistributorForm.resx">
+    <EmbeddedResource Include="forms\DistributorForm.resx">
       <DependentUpon>DistributorForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EnlistSoldierForm.resx">
+    <EmbeddedResource Include="forms\EnlistSoldierForm.resx">
       <DependentUpon>EnlistSoldierForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GeneralForm.resx">
+    <EmbeddedResource Include="forms\GeneralForm.resx">
       <DependentUpon>GeneralForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GunsmithForm.resx">
+    <EmbeddedResource Include="forms\GunsmithForm.resx">
       <DependentUpon>GunsmithForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HealerForm.resx">
+    <EmbeddedResource Include="forms\HealerForm.resx">
       <DependentUpon>HealerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreateItemForm.resx">
+    <EmbeddedResource Include="forms\CreateItemForm.resx">
       <DependentUpon>CreateItemForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LogInForm.resx">
+    <EmbeddedResource Include="forms\LogInForm.resx">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreateSquadForm.resx">
+    <EmbeddedResource Include="forms\CreateSquadForm.resx">
       <DependentUpon>CreateSquadForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OperationForm.resx">
+    <EmbeddedResource Include="forms\OperationForm.resx">
       <DependentUpon>OperationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -202,16 +201,16 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegisterForm.resx">
+    <EmbeddedResource Include="forms\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ScientistForm.resx">
       <DependentUpon>ScientistForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SquadControlForm.resx">
+    <EmbeddedResource Include="forms\SquadControlForm.resx">
       <DependentUpon>SquadControlForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StartForm.resx">
+    <EmbeddedResource Include="forms\StartForm.resx">
       <DependentUpon>StartForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="resources\Airborne.ttf" />

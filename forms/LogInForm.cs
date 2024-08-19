@@ -59,7 +59,7 @@ namespace La_Alianza
 
         private void BTN_LogIn_Click(object sender, EventArgs e)
         {
-            GeneralForm General = new GeneralForm();
+            HealerForm General = new HealerForm();
             General.Show();
             this.Hide();
         }

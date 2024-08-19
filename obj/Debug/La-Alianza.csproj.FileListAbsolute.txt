@@ -97,7 +97,6 @@ C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.CreateOperat
 C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.DistributorForm.resources
 C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.EnlistSoldierForm.resources
 C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.GeneralForm.resources
-C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.GunsmithForm.resources
 C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.HealerForm.resources
 C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.CreateItemForm.resources
 C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.LogInForm.resources
@@ -175,3 +174,4 @@ C:\Users\Notebook1\Desktop\asfgh\La-Alianza\obj\Debug\La-Alianza.csproj.CoreComp
 C:\Users\Notebook1\Desktop\asfgh\La-Alianza\obj\Debug\La-Alianza.csproj.Up2Date
 C:\Users\Notebook1\Desktop\asfgh\La-Alianza\obj\Debug\La-Alianza.exe
 C:\Users\Notebook1\Desktop\asfgh\La-Alianza\obj\Debug\La-Alianza.pdb
+C:\Users\lso3g3\Documents\Codiguito\La-Alianza\obj\Debug\La_Alianza.GunsmithForm.resources
