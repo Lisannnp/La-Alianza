@@ -42,7 +42,7 @@ namespace La_Alianza
 
             //Agregar los objetos que la vayan a usar
             BTN_BackToGeneral.Font = new Font(pfc.Families[0], 12, boldStyle);
-            CMB_List.Font = new Font(pfc.Families[0], 12, boldStyle);
+            CMB_List.Font = new Font(pfc.Families[0], 9, boldStyle);
             LBL_List.Font = new Font(pfc.Families[0], 12, boldStyle);
 
 

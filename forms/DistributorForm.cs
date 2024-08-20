@@ -42,10 +42,10 @@ namespace La_Alianza
 
             //Agregar los objetos que la vayan a usar
             LBL_Cargament.Font = new Font(pfc.Families[0], 12, boldStyle);
-            CMB_Cargament.Font = new Font(pfc.Families[0], 12, boldStyle);
+            CMB_Cargament.Font = new Font(pfc.Families[0], 9, boldStyle);
             LBL_Base.Font = new Font(pfc.Families[0], 12, boldStyle);
-            CMB_Base.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_Allocate.Font = new Font(pfc.Families[0], 12, boldStyle);
+            CMB_Base.Font = new Font(pfc.Families[0], 9, boldStyle);
+            BTN_Allocate.Font = new Font(pfc.Families[0], 8, boldStyle);
             BTN_LogOut.Font = new Font(pfc.Families[0], 12, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 35, boldStyle);

@@ -52,22 +52,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base.cs" />
-    <Compile Include="BaseMember.cs" />
+    <Compile Include="clases\Base.cs" />
+    <Compile Include="clases\BaseMember.cs" />
     <Compile Include="forms\BaseStatusForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\BaseStatusForm.Designer.cs">
       <DependentUpon>BaseStatusForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cargament.cs" />
+    <Compile Include="clases\Cargament.cs" />
     <Compile Include="forms\CreateOperationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\CreateOperationForm.Designer.cs">
       <DependentUpon>CreateOperationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Distributor.cs" />
+    <Compile Include="clases\Distributor.cs" />
     <Compile Include="forms\DistributorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,14 +80,14 @@
     <Compile Include="forms\EnlistSoldierForm.Designer.cs">
       <DependentUpon>EnlistSoldierForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="General.cs" />
+    <Compile Include="clases\General.cs" />
     <Compile Include="forms\GeneralForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\GeneralForm.Designer.cs">
       <DependentUpon>GeneralForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gunsmith.cs" />
+    <Compile Include="clases\Gunsmith.cs" />
     <Compile Include="forms\GunsmithForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,8 +106,8 @@
     <Compile Include="forms\CreateItemForm.Designer.cs">
       <DependentUpon>CreateItemForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Item.cs" />
-    <Compile Include="ListGlosary.cs" />
+    <Compile Include="clases\Item.cs" />
+    <Compile Include="clases\ListGlosary.cs" />
     <Compile Include="forms\LogInForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,14 +120,14 @@
     <Compile Include="forms\CreateSquadForm.Designer.cs">
       <DependentUpon>CreateSquadForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Operation.cs" />
+    <Compile Include="clases\Operation.cs" />
     <Compile Include="forms\OperationForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\OperationForm.Designer.cs">
       <DependentUpon>OperationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Person.cs" />
+    <Compile Include="clases\Person.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -139,15 +139,15 @@
     <Compile Include="forms\RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Scientist.cs" />
-    <Compile Include="ScientistForm.cs">
+    <Compile Include="clases\Scientist.cs" />
+    <Compile Include="forms\ScientistForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ScientistForm.Designer.cs">
+    <Compile Include="forms\ScientistForm.Designer.cs">
       <DependentUpon>ScientistForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Soldier.cs" />
-    <Compile Include="Squad.cs" />
+    <Compile Include="clases\Soldier.cs" />
+    <Compile Include="clases\Squad.cs" />
     <Compile Include="forms\SquadControlForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,9 +160,9 @@
     <Compile Include="forms\StartForm.Designer.cs">
       <DependentUpon>StartForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="clases\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="clases\User.cs" />
     <EmbeddedResource Include="forms\BaseStatusForm.resx">
       <DependentUpon>BaseStatusForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -204,7 +204,7 @@
     <EmbeddedResource Include="forms\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ScientistForm.resx">
+    <EmbeddedResource Include="forms\ScientistForm.resx">
       <DependentUpon>ScientistForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\SquadControlForm.resx">
@@ -216,7 +216,6 @@
     <None Include="resources\Airborne.ttf" />
     <None Include="resources\Bebas.ttf" />
     <None Include="resources\Ocr.ttf" />
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -231,7 +230,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Logo1.jpeg" />
     <None Include="resources\Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

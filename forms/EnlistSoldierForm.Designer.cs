@@ -184,7 +184,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EnlistSoldierForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EnlistSoldierForm";
+            this.Text = "Enlist Soldier";
             this.Layout1.ResumeLayout(false);
             this.Layout1.PerformLayout();
             this.Layout3.ResumeLayout(false);

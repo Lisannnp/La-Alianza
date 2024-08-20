@@ -310,7 +310,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "OperationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "OperationForm";
+            this.Text = "Operation";
             this.Layout1.ResumeLayout(false);
             this.Layout1.PerformLayout();
             this.Layout2.ResumeLayout(false);

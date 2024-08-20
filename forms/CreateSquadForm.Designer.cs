@@ -31,7 +31,6 @@
             this.Layout1 = new System.Windows.Forms.TableLayoutPanel();
             this.BTN_General = new System.Windows.Forms.Button();
             this.BTN_Operation = new System.Windows.Forms.Button();
-            this.LBL_Soldier = new System.Windows.Forms.Label();
             this.Layout4 = new System.Windows.Forms.FlowLayoutPanel();
             this.Layout5 = new System.Windows.Forms.TableLayoutPanel();
             this.CMB_Soldier = new System.Windows.Forms.ComboBox();
@@ -42,6 +41,7 @@
             this.DGV_Squads = new System.Windows.Forms.DataGridView();
             this.BTN_Add = new System.Windows.Forms.Button();
             this.BTN_CreateSquad = new System.Windows.Forms.Button();
+            this.LBL_Soldier = new System.Windows.Forms.Label();
             this.Layout1.SuspendLayout();
             this.Layout4.SuspendLayout();
             this.Layout5.SuspendLayout();
@@ -118,20 +118,6 @@
             this.BTN_Operation.Text = "Go to Operation";
             this.BTN_Operation.UseVisualStyleBackColor = false;
             this.BTN_Operation.Click += new System.EventHandler(this.BTN_Operation_Click);
-            // 
-            // LBL_Soldier
-            // 
-            this.LBL_Soldier.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.LBL_Soldier.AutoSize = true;
-            this.LBL_Soldier.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.LBL_Soldier.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LBL_Soldier.Location = new System.Drawing.Point(134, 112);
-            this.LBL_Soldier.Margin = new System.Windows.Forms.Padding(134, 0, 3, 0);
-            this.LBL_Soldier.Name = "LBL_Soldier";
-            this.LBL_Soldier.Size = new System.Drawing.Size(71, 22);
-            this.LBL_Soldier.TabIndex = 42;
-            this.LBL_Soldier.Text = "Soldier:";
-            this.LBL_Soldier.UseWaitCursor = true;
             // 
             // Layout4
             // 
@@ -276,6 +262,20 @@
             this.BTN_CreateSquad.Text = "Create Squad";
             this.BTN_CreateSquad.UseVisualStyleBackColor = false;
             // 
+            // LBL_Soldier
+            // 
+            this.LBL_Soldier.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.LBL_Soldier.AutoSize = true;
+            this.LBL_Soldier.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.LBL_Soldier.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.LBL_Soldier.Location = new System.Drawing.Point(134, 112);
+            this.LBL_Soldier.Margin = new System.Windows.Forms.Padding(134, 0, 3, 0);
+            this.LBL_Soldier.Name = "LBL_Soldier";
+            this.LBL_Soldier.Size = new System.Drawing.Size(71, 22);
+            this.LBL_Soldier.TabIndex = 42;
+            this.LBL_Soldier.Text = "Soldier:";
+            this.LBL_Soldier.UseWaitCursor = true;
+            // 
             // CreateSquadForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -287,7 +287,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CreateSquadForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MakeSquad";
+            this.Text = "Create Squad";
             this.Layout1.ResumeLayout(false);
             this.Layout1.PerformLayout();
             this.Layout4.ResumeLayout(false);

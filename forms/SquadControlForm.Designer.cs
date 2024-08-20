@@ -41,10 +41,10 @@
             this.Layout3 = new System.Windows.Forms.TableLayoutPanel();
             this.Layout4 = new System.Windows.Forms.FlowLayoutPanel();
             this.Layout5 = new System.Windows.Forms.TableLayoutPanel();
+            this.CMB_Squad = new System.Windows.Forms.ComboBox();
             this.TableLayout2 = new System.Windows.Forms.TableLayoutPanel();
             this.LBL_Title = new System.Windows.Forms.Label();
             this.PCB_Logo = new System.Windows.Forms.PictureBox();
-            this.CMB_Squad = new System.Windows.Forms.ComboBox();
             this.CMB_Soldier = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Squads)).BeginInit();
             this.Layout1.SuspendLayout();
@@ -93,7 +93,7 @@
             this.LBL_Squad.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.LBL_Squad.AutoSize = true;
             this.LBL_Squad.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.LBL_Squad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.LBL_Squad.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LBL_Squad.Location = new System.Drawing.Point(134, 112);
             this.LBL_Squad.Margin = new System.Windows.Forms.Padding(134, 0, 3, 0);
             this.LBL_Squad.Name = "LBL_Squad";
@@ -123,7 +123,7 @@
             this.LBL_Soldier.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.LBL_Soldier.AutoSize = true;
             this.LBL_Soldier.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.LBL_Soldier.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.LBL_Soldier.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.LBL_Soldier.Location = new System.Drawing.Point(134, 289);
             this.LBL_Soldier.Margin = new System.Windows.Forms.Padding(134, 0, 3, 0);
             this.LBL_Soldier.Name = "LBL_Soldier";
@@ -236,7 +236,7 @@
             this.Layout3.Name = "Layout3";
             this.Layout3.RowCount = 1;
             this.Layout3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.Layout3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.Layout3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.Layout3.Size = new System.Drawing.Size(431, 32);
             this.Layout3.TabIndex = 0;
             // 
@@ -266,6 +266,18 @@
             this.Layout5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.Layout5.Size = new System.Drawing.Size(434, 32);
             this.Layout5.TabIndex = 0;
+            // 
+            // CMB_Squad
+            // 
+            this.CMB_Squad.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.CMB_Squad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.CMB_Squad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CMB_Squad.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.CMB_Squad.Location = new System.Drawing.Point(136, 5);
+            this.CMB_Squad.Margin = new System.Windows.Forms.Padding(0);
+            this.CMB_Squad.Name = "CMB_Squad";
+            this.CMB_Squad.Size = new System.Drawing.Size(158, 21);
+            this.CMB_Squad.TabIndex = 46;
             // 
             // TableLayout2
             // 
@@ -313,18 +325,6 @@
             this.PCB_Logo.TabIndex = 38;
             this.PCB_Logo.TabStop = false;
             // 
-            // CMB_Squad
-            // 
-            this.CMB_Squad.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.CMB_Squad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.CMB_Squad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CMB_Squad.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.CMB_Squad.Location = new System.Drawing.Point(136, 5);
-            this.CMB_Squad.Margin = new System.Windows.Forms.Padding(0);
-            this.CMB_Squad.Name = "CMB_Squad";
-            this.CMB_Squad.Size = new System.Drawing.Size(158, 21);
-            this.CMB_Squad.TabIndex = 46;
-            // 
             // CMB_Soldier
             // 
             this.CMB_Soldier.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -348,7 +348,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SquadControlForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SquadControlForm";
+            this.Text = "Squad Control";
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Squads)).EndInit();
             this.Layout1.ResumeLayout(false);
             this.Layout1.PerformLayout();

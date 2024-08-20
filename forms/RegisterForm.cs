@@ -19,6 +19,8 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+            CMB_Rol.Items.Add("General");
+
         }
 
         private void BTN_Start_Click(object sender, EventArgs e)
@@ -63,9 +65,19 @@ namespace La_Alianza
             TXB_Name.Font = new Font(pfc.Families[0], 12);
             TXB_Password.Font = new Font(pfc.Families[0], 12);
             TXB_Base.Font = new Font(pfc.Families[0], 12);
-            CMB_Rol.Font = new Font(pfc.Families[0], 12);
+            CMB_Rol.Font = new Font(pfc.Families[0], 9);
+            BTN_Register.Font = new Font(pfc.Families[0], 8);
 
             LBL_Title.Font = new Font(pfc.Families[0], 45, boldStyle);
+        }
+
+        private void CMB_Rol_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CMB_Rol.SelectedIndex == 0)
+            {
+                LBL_Base.Visible = true;
+                TXB_Base.Visible = true;
+            }
         }
     }
 }

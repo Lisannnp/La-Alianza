@@ -161,7 +161,7 @@ namespace La_Alianza
             this.LBL_Title.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBL_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
             this.LBL_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.LBL_Title.Location = new System.Drawing.Point(85, 0);
+            this.LBL_Title.Location = new System.Drawing.Point(86, 0);
             this.LBL_Title.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_Title.Name = "LBL_Title";
             this.LBL_Title.Size = new System.Drawing.Size(251, 86);
@@ -214,7 +214,7 @@ namespace La_Alianza
             this.ClientSize = new System.Drawing.Size(434, 411);
             this.Controls.Add(this.Layout1);
             this.Name = "GunsmithForm";
-            this.Text = "GunsmithForm";
+            this.Text = "Gunsmith";
             this.Layout1.ResumeLayout(false);
             this.Layout1.PerformLayout();
             this.TableLayout2.ResumeLayout(false);

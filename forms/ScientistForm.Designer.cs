@@ -60,9 +60,9 @@
             this.Layout1.Controls.Add(this.LBL_Item, 0, 3);
             this.Layout1.Controls.Add(this.Layout4, 0, 4);
             this.Layout1.Controls.Add(this.TableLayout2, 0, 1);
-            this.Layout1.Controls.Add(this.DGV_Squads, 0, 8);
             this.Layout1.Controls.Add(this.BTN_Add, 0, 6);
             this.Layout1.Controls.Add(this.BTN_AddPackage, 0, 11);
+            this.Layout1.Controls.Add(this.DGV_Squads, 0, 8);
             this.Layout1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Layout1.Location = new System.Drawing.Point(0, 0);
             this.Layout1.Name = "Layout1";
@@ -191,9 +191,9 @@
             // 
             this.TableLayout2.BackColor = System.Drawing.Color.Transparent;
             this.TableLayout2.ColumnCount = 2;
-            this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.51152F));
-            this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.48848F));
-            this.TableLayout2.Controls.Add(this.LBL_Title, 0, 0);
+            this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.04148F));
+            this.TableLayout2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.95853F));
+            this.TableLayout2.Controls.Add(this.LBL_Title, 1, 0);
             this.TableLayout2.Controls.Add(this.PCB_Logo, 0, 0);
             this.TableLayout2.Location = new System.Drawing.Point(0, 10);
             this.TableLayout2.Margin = new System.Windows.Forms.Padding(0);
@@ -212,7 +212,7 @@
             this.LBL_Title.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBL_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
             this.LBL_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.LBL_Title.Location = new System.Drawing.Point(75, 0);
+            this.LBL_Title.Location = new System.Drawing.Point(100, 0);
             this.LBL_Title.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_Title.Name = "LBL_Title";
             this.LBL_Title.Size = new System.Drawing.Size(247, 91);
@@ -225,7 +225,7 @@
             this.PCB_Logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.PCB_Logo.BackColor = System.Drawing.Color.Transparent;
             this.PCB_Logo.Image = global::La_Alianza.Properties.Resources.LOGO;
-            this.PCB_Logo.Location = new System.Drawing.Point(20, 18);
+            this.PCB_Logo.Location = new System.Drawing.Point(32, 18);
             this.PCB_Logo.Margin = new System.Windows.Forms.Padding(14, 18, 0, 24);
             this.PCB_Logo.Name = "PCB_Logo";
             this.PCB_Logo.Size = new System.Drawing.Size(49, 49);

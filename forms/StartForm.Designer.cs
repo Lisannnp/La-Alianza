@@ -157,7 +157,7 @@ namespace La_Alianza
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Start";
+            this.Text = "LA ALINZA";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PCB_Start)).EndInit();

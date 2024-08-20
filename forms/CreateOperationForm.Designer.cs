@@ -63,7 +63,7 @@
             this.TXB_Name.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.TXB_Name.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TXB_Name.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.TXB_Name.Location = new System.Drawing.Point(138, 168);
+            this.TXB_Name.Location = new System.Drawing.Point(138, 171);
             this.TXB_Name.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.TXB_Name.Name = "TXB_Name";
             this.TXB_Name.Size = new System.Drawing.Size(158, 13);
@@ -216,7 +216,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CreateOperationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CreateOpeationForm";
+            this.Text = "Create Operation";
             this.Layout1.ResumeLayout(false);
             this.Layout1.PerformLayout();
             this.TableLayout2.ResumeLayout(false);

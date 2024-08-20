@@ -64,11 +64,11 @@ namespace La_Alianza
 
             //Agregar los objetos que la vayan a usar
             LBL_Soldier.Font = new Font(pfc.Families[0], 12, boldStyle);
-            CMB_Soldier.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_Add.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_CreateSquad.Font = new Font(pfc.Families[0], 12, boldStyle);
+            CMB_Soldier.Font = new Font(pfc.Families[0], 9, boldStyle);
+            BTN_Add.Font = new Font(pfc.Families[0], 8, boldStyle);
+            BTN_CreateSquad.Font = new Font(pfc.Families[0], 8, boldStyle);
             BTN_Operation.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_Plus.Font = new Font(pfc.Families[0], 12, boldStyle);
+            BTN_Plus.Font = new Font(pfc.Families[0], 8, boldStyle);
             BTN_General.Font = new Font(pfc.Families[0], 12, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 30, boldStyle);

@@ -49,13 +49,13 @@ namespace La_Alianza
 
             //Agregar los objetos que la vayan a usar
             LBL_Item.Font = new Font(pfc.Families[0], 12, boldStyle);
-            CMB_Item.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_Add.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_AddPackage.Font = new Font(pfc.Families[0], 12, boldStyle);
+            CMB_Item.Font = new Font(pfc.Families[0], 9, boldStyle);
+            BTN_Add.Font = new Font(pfc.Families[0], 8, boldStyle);
+            BTN_AddPackage.Font = new Font(pfc.Families[0], 8, boldStyle);
             BTN_LogOut.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_Plus.Font = new Font(pfc.Families[0], 12, boldStyle);
+            BTN_Plus.Font = new Font(pfc.Families[0], 8, boldStyle);
 
-            LBL_Title.Font = new Font(pfc.Families[0], 35, boldStyle);
+            LBL_Title.Font = new Font(pfc.Families[0], 38, boldStyle);
         }
     }
 }

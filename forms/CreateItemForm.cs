@@ -43,11 +43,11 @@ namespace La_Alianza
             LBL_Name.Font = new Font(pfc.Families[0], 12, boldStyle);
             TXB_Name.Font = new Font(pfc.Families[0], 12, boldStyle);
             LBL_Category.Font = new Font(pfc.Families[0], 12, boldStyle);
-            CMB_Category.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_Create.Font = new Font(pfc.Families[0], 12, boldStyle);
+            CMB_Category.Font = new Font(pfc.Families[0], 9, boldStyle);
+            BTN_Create.Font = new Font(pfc.Families[0], 8, boldStyle);
             BTN_Exit.Font = new Font(pfc.Families[0], 12, boldStyle);
 
-            LBL_Title.Font = new Font(pfc.Families[0], 30, boldStyle);
+            LBL_Title.Font = new Font(pfc.Families[0], 38, boldStyle);
         }
     }
 }

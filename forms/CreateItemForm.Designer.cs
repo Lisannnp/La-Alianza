@@ -163,9 +163,9 @@
             this.LBL_Title.Location = new System.Drawing.Point(65, 0);
             this.LBL_Title.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_Title.Name = "LBL_Title";
-            this.LBL_Title.Size = new System.Drawing.Size(246, 86);
+            this.LBL_Title.Size = new System.Drawing.Size(311, 86);
             this.LBL_Title.TabIndex = 39;
-            this.LBL_Title.Text = "Create Item";
+            this.LBL_Title.Text = "CREATE ITEM";
             this.LBL_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PCB_Logo
@@ -215,7 +215,7 @@
             this.Controls.Add(this.Layout1);
             this.Name = "CreateItemForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Item";
+            this.Text = "Create Item";
             this.Layout1.ResumeLayout(false);
             this.Layout1.PerformLayout();
             this.TableLayout2.ResumeLayout(false);

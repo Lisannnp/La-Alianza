@@ -236,7 +236,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "BaseStatusForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BaseStatusForm";
+            this.Text = "Base Status";
             this.Layout.ResumeLayout(false);
             this.Layout3.ResumeLayout(false);
             this.Layout3.PerformLayout();

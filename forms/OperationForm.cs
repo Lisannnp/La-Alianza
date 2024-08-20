@@ -38,6 +38,7 @@ namespace La_Alianza
         {
             CreateSquadForm CreateSquad = new CreateSquadForm();
             CreateSquad.Show();
+            this.Hide();
         }
         private void BTN_Plus2_Click(object sender, EventArgs e)
         {
@@ -59,12 +60,12 @@ namespace La_Alianza
 
             //Agregar los objetos que la vayan a usar
             LBL_Squad.Font = new Font(pfc.Families[0], 12, boldStyle);
-            CMB_Squad.Font = new Font(pfc.Families[0], 12, boldStyle);
+            CMB_Squad.Font = new Font(pfc.Families[0], 9, boldStyle);
             LBL_Operation.Font = new Font(pfc.Families[0], 12, boldStyle);
-            CMB_Operation.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_Plus.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_Plus2.Font = new Font(pfc.Families[0], 12, boldStyle);
-            BTN_RunOperation.Font = new Font(pfc.Families[0], 12, boldStyle);
+            CMB_Operation.Font = new Font(pfc.Families[0], 9, boldStyle);
+            BTN_Plus.Font = new Font(pfc.Families[0], 8, boldStyle);
+            BTN_Plus2.Font = new Font(pfc.Families[0], 8, boldStyle);
+            BTN_RunOperation.Font = new Font(pfc.Families[0], 8, boldStyle);
             BTN_BackToGeneral.Font = new Font(pfc.Families[0], 12, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 24, boldStyle);

@@ -18,6 +18,13 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+
+            CMB_Formi.Items.Add("Scientist");
+            CMB_Formi.Items.Add("Healer");
+            CMB_Formi.Items.Add("Gunsmith");
+            CMB_Formi.Items.Add("Distributor");
+            CMB_Formi.Items.Add("General");
+
         }
 
         private void BTN_Start_Click(object sender, EventArgs e)
@@ -59,9 +66,36 @@ namespace La_Alianza
 
         private void BTN_LogIn_Click(object sender, EventArgs e)
         {
-            HealerForm General = new HealerForm();
-            General.Show();
-            this.Hide();
+            string formiItem = CMB_Formi.SelectedItem.ToString();
+
+            switch (formiItem)
+            {
+                case "Scientist":
+                    ScientistForm Formi = new ScientistForm();
+                    Formi.Show();
+                    this.Hide();
+                break;
+                case "Healer":
+                    HealerForm Formi2 = new HealerForm();
+                    Formi2.Show();
+                    this.Hide();
+                break;
+                case "Gunsmith":
+                    GunsmithForm Formi3 = new GunsmithForm();
+                    Formi3.Show();
+                    this.Hide();
+                break;
+                case "Distributor":
+                    DistributorForm Formi4 = new DistributorForm();
+                    Formi4.Show();
+                    this.Hide();
+                break;
+                case "General":
+                    GeneralForm Formi5 = new GeneralForm();
+                    Formi5.Show();
+                    this.Hide();
+                break;
+            }
         }
     }
 }

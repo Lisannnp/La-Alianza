@@ -44,6 +44,7 @@ namespace La_Alianza
             this.FlowLayout1 = new System.Windows.Forms.FlowLayoutPanel();
             this.TableLayout2 = new System.Windows.Forms.TableLayoutPanel();
             this.PCB_Logo = new System.Windows.Forms.PictureBox();
+            this.BTN_Register = new System.Windows.Forms.Button();
             this.TableLayout1.SuspendLayout();
             this.FlowLayout1.SuspendLayout();
             this.TableLayout2.SuspendLayout();
@@ -58,7 +59,7 @@ namespace La_Alianza
             this.BTN_LogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_LogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.BTN_LogIn.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BTN_LogIn.Location = new System.Drawing.Point(137, 416);
+            this.BTN_LogIn.Location = new System.Drawing.Point(137, 415);
             this.BTN_LogIn.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_LogIn.Name = "BTN_LogIn";
             this.BTN_LogIn.Size = new System.Drawing.Size(160, 30);
@@ -73,7 +74,7 @@ namespace La_Alianza
             this.TXB_Name.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.TXB_Name.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TXB_Name.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.TXB_Name.Location = new System.Drawing.Point(138, 144);
+            this.TXB_Name.Location = new System.Drawing.Point(138, 118);
             this.TXB_Name.Margin = new System.Windows.Forms.Padding(0);
             this.TXB_Name.Name = "TXB_Name";
             this.TXB_Name.Size = new System.Drawing.Size(158, 13);
@@ -85,7 +86,7 @@ namespace La_Alianza
             this.TXB_Password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.TXB_Password.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TXB_Password.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.TXB_Password.Location = new System.Drawing.Point(138, 209);
+            this.TXB_Password.Location = new System.Drawing.Point(138, 180);
             this.TXB_Password.Margin = new System.Windows.Forms.Padding(0);
             this.TXB_Password.Name = "TXB_Password";
             this.TXB_Password.Size = new System.Drawing.Size(158, 13);
@@ -97,7 +98,7 @@ namespace La_Alianza
             this.LBL_Name.AutoSize = true;
             this.LBL_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.LBL_Name.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LBL_Name.Location = new System.Drawing.Point(134, 112);
+            this.LBL_Name.Location = new System.Drawing.Point(134, 86);
             this.LBL_Name.Margin = new System.Windows.Forms.Padding(134, 0, 0, 0);
             this.LBL_Name.Name = "LBL_Name";
             this.LBL_Name.Size = new System.Drawing.Size(62, 22);
@@ -110,7 +111,7 @@ namespace La_Alianza
             this.LBL_Password.AutoSize = true;
             this.LBL_Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.LBL_Password.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LBL_Password.Location = new System.Drawing.Point(134, 177);
+            this.LBL_Password.Location = new System.Drawing.Point(134, 148);
             this.LBL_Password.Margin = new System.Windows.Forms.Padding(134, 0, 0, 0);
             this.LBL_Password.Name = "LBL_Password";
             this.LBL_Password.Size = new System.Drawing.Size(94, 22);
@@ -126,7 +127,7 @@ namespace La_Alianza
             this.BTN_Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_Start.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.BTN_Start.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BTN_Start.Location = new System.Drawing.Point(137, 376);
+            this.BTN_Start.Location = new System.Drawing.Point(137, 375);
             this.BTN_Start.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_Start.Name = "BTN_Start";
             this.BTN_Start.Size = new System.Drawing.Size(160, 30);
@@ -141,7 +142,7 @@ namespace La_Alianza
             this.LBL_Rol.AutoSize = true;
             this.LBL_Rol.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.LBL_Rol.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LBL_Rol.Location = new System.Drawing.Point(134, 242);
+            this.LBL_Rol.Location = new System.Drawing.Point(134, 210);
             this.LBL_Rol.Margin = new System.Windows.Forms.Padding(134, 0, 0, 0);
             this.LBL_Rol.Name = "LBL_Rol";
             this.LBL_Rol.Size = new System.Drawing.Size(42, 22);
@@ -155,11 +156,12 @@ namespace La_Alianza
             this.CMB_Rol.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.CMB_Rol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CMB_Rol.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.CMB_Rol.Location = new System.Drawing.Point(138, 270);
+            this.CMB_Rol.Location = new System.Drawing.Point(138, 238);
             this.CMB_Rol.Margin = new System.Windows.Forms.Padding(0);
             this.CMB_Rol.Name = "CMB_Rol";
             this.CMB_Rol.Size = new System.Drawing.Size(158, 21);
             this.CMB_Rol.TabIndex = 13;
+            this.CMB_Rol.SelectedIndexChanged += new System.EventHandler(this.CMB_Rol_SelectedIndexChanged);
             // 
             // LBL_Base
             // 
@@ -167,13 +169,14 @@ namespace La_Alianza
             this.LBL_Base.AutoSize = true;
             this.LBL_Base.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.LBL_Base.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.LBL_Base.Location = new System.Drawing.Point(134, 307);
+            this.LBL_Base.Location = new System.Drawing.Point(134, 272);
             this.LBL_Base.Margin = new System.Windows.Forms.Padding(134, 0, 0, 0);
             this.LBL_Base.Name = "LBL_Base";
             this.LBL_Base.Size = new System.Drawing.Size(56, 22);
             this.LBL_Base.TabIndex = 15;
             this.LBL_Base.Text = "Base:";
             this.LBL_Base.UseWaitCursor = true;
+            this.LBL_Base.Visible = false;
             // 
             // TXB_Base
             // 
@@ -181,11 +184,12 @@ namespace La_Alianza
             this.TXB_Base.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.TXB_Base.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TXB_Base.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.TXB_Base.Location = new System.Drawing.Point(138, 339);
+            this.TXB_Base.Location = new System.Drawing.Point(138, 304);
             this.TXB_Base.Margin = new System.Windows.Forms.Padding(0);
             this.TXB_Base.Name = "TXB_Base";
             this.TXB_Base.Size = new System.Drawing.Size(158, 13);
             this.TXB_Base.TabIndex = 14;
+            this.TXB_Base.Visible = false;
             // 
             // BTN_Exit
             // 
@@ -195,7 +199,7 @@ namespace La_Alianza
             this.BTN_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.BTN_Exit.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BTN_Exit.Location = new System.Drawing.Point(137, 456);
+            this.BTN_Exit.Location = new System.Drawing.Point(137, 455);
             this.BTN_Exit.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_Exit.Name = "BTN_Exit";
             this.BTN_Exit.Size = new System.Drawing.Size(160, 30);
@@ -226,43 +230,45 @@ namespace La_Alianza
             this.TableLayout1.BackColor = System.Drawing.Color.Transparent;
             this.TableLayout1.ColumnCount = 1;
             this.TableLayout1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.TableLayout1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 403F));
             this.TableLayout1.Controls.Add(this.LBL_Password, 1, 6);
             this.TableLayout1.Controls.Add(this.TXB_Password, 1, 7);
             this.TableLayout1.Controls.Add(this.LBL_Rol, 1, 9);
             this.TableLayout1.Controls.Add(this.CMB_Rol, 1, 10);
-            this.TableLayout1.Controls.Add(this.BTN_Start, 1, 15);
-            this.TableLayout1.Controls.Add(this.BTN_LogIn, 1, 16);
-            this.TableLayout1.Controls.Add(this.BTN_Exit, 1, 17);
             this.TableLayout1.Controls.Add(this.TXB_Base, 0, 13);
             this.TableLayout1.Controls.Add(this.FlowLayout1, 0, 1);
             this.TableLayout1.Controls.Add(this.LBL_Name, 0, 3);
             this.TableLayout1.Controls.Add(this.LBL_Base, 0, 12);
             this.TableLayout1.Controls.Add(this.TXB_Name, 0, 4);
+            this.TableLayout1.Controls.Add(this.BTN_Exit, 0, 19);
+            this.TableLayout1.Controls.Add(this.BTN_LogIn, 0, 18);
+            this.TableLayout1.Controls.Add(this.BTN_Start, 0, 17);
+            this.TableLayout1.Controls.Add(this.BTN_Register, 0, 15);
             this.TableLayout1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TableLayout1.Location = new System.Drawing.Point(0, 0);
             this.TableLayout1.Margin = new System.Windows.Forms.Padding(0);
             this.TableLayout1.Name = "TableLayout1";
-            this.TableLayout1.RowCount = 19;
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.0031F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.99546F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.0031F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.998738F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.998486F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.0031F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.998738F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.998486F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.0031F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.998738F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.998486F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.0031F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.998738F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.998486F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.0031F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.997981F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.997981F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.997981F));
-            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.0031F));
+            this.TableLayout1.RowCount = 21;
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.500103F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.99831F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.500305F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.999756F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.999708F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.500305F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.999756F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.999708F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.500305F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.999756F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.999708F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.500305F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.999756F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.999708F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.500103F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.000412F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.500103F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.99961F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.001628F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.00055F));
+            this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.500103F));
             this.TableLayout1.Size = new System.Drawing.Size(434, 511);
             this.TableLayout1.TabIndex = 38;
             // 
@@ -271,10 +277,10 @@ namespace La_Alianza
             this.FlowLayout1.BackColor = System.Drawing.Color.Transparent;
             this.FlowLayout1.Controls.Add(this.TableLayout2);
             this.FlowLayout1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FlowLayout1.Location = new System.Drawing.Point(0, 10);
+            this.FlowLayout1.Location = new System.Drawing.Point(0, 7);
             this.FlowLayout1.Margin = new System.Windows.Forms.Padding(0);
             this.FlowLayout1.Name = "FlowLayout1";
-            this.FlowLayout1.Size = new System.Drawing.Size(434, 91);
+            this.FlowLayout1.Size = new System.Drawing.Size(434, 71);
             this.FlowLayout1.TabIndex = 38;
             this.FlowLayout1.WrapContents = false;
             // 
@@ -306,6 +312,21 @@ namespace La_Alianza
             this.PCB_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PCB_Logo.TabIndex = 38;
             this.PCB_Logo.TabStop = false;
+            // 
+            // BTN_Register
+            // 
+            this.BTN_Register.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BTN_Register.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.BTN_Register.FlatAppearance.BorderSize = 0;
+            this.BTN_Register.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTN_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.BTN_Register.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BTN_Register.Location = new System.Drawing.Point(162, 336);
+            this.BTN_Register.Name = "BTN_Register";
+            this.BTN_Register.Size = new System.Drawing.Size(110, 23);
+            this.BTN_Register.TabIndex = 49;
+            this.BTN_Register.Text = "Register";
+            this.BTN_Register.UseVisualStyleBackColor = false;
             // 
             // RegisterForm
             // 
@@ -345,5 +366,6 @@ namespace La_Alianza
         private System.Windows.Forms.FlowLayoutPanel FlowLayout1;
         private System.Windows.Forms.TableLayoutPanel TableLayout2;
         private System.Windows.Forms.PictureBox PCB_Logo;
+        private System.Windows.Forms.Button BTN_Register;
     }
 }
