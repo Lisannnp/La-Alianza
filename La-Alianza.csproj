@@ -52,148 +52,149 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clases\Base.cs" />
-    <Compile Include="clases\BaseMember.cs" />
-    <Compile Include="forms\BaseStatusForm.cs">
+    <Compile Include="clases\other\Base.cs" />
+    <Compile Include="clases\person\Healer.cs" />
+    <Compile Include="clases\person\BaseMember.cs" />
+    <Compile Include="forms\general\BaseStatusForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\BaseStatusForm.Designer.cs">
+    <Compile Include="forms\general\BaseStatusForm.Designer.cs">
       <DependentUpon>BaseStatusForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\Cargament.cs" />
-    <Compile Include="forms\CreateOperationForm.cs">
+    <Compile Include="clases\other\Cargament.cs" />
+    <Compile Include="forms\general\CreateOperationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\CreateOperationForm.Designer.cs">
+    <Compile Include="forms\general\CreateOperationForm.Designer.cs">
       <DependentUpon>CreateOperationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\Distributor.cs" />
-    <Compile Include="forms\DistributorForm.cs">
+    <Compile Include="clases\person\Distributor.cs" />
+    <Compile Include="forms\distributor\DistributorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\DistributorForm.Designer.cs">
+    <Compile Include="forms\distributor\DistributorForm.Designer.cs">
       <DependentUpon>DistributorForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\EnlistSoldierForm.cs">
+    <Compile Include="forms\general\EnlistSoldierForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\EnlistSoldierForm.Designer.cs">
+    <Compile Include="forms\general\EnlistSoldierForm.Designer.cs">
       <DependentUpon>EnlistSoldierForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\General.cs" />
-    <Compile Include="forms\GeneralForm.cs">
+    <Compile Include="clases\person\General.cs" />
+    <Compile Include="forms\general\GeneralForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\GeneralForm.Designer.cs">
+    <Compile Include="forms\general\GeneralForm.Designer.cs">
       <DependentUpon>GeneralForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\Gunsmith.cs" />
-    <Compile Include="forms\GunsmithForm.cs">
+    <Compile Include="clases\person\Gunsmith.cs" />
+    <Compile Include="forms\gunsmith\GunsmithForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\GunsmithForm.Designer.cs">
+    <Compile Include="forms\gunsmith\GunsmithForm.Designer.cs">
       <DependentUpon>GunsmithForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\HealerForm.cs">
+    <Compile Include="forms\healer\HealerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\HealerForm.Designer.cs">
+    <Compile Include="forms\healer\HealerForm.Designer.cs">
       <DependentUpon>HealerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\CreateItemForm.cs">
+    <Compile Include="forms\scientist\CreateItemForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\CreateItemForm.Designer.cs">
+    <Compile Include="forms\scientist\CreateItemForm.Designer.cs">
       <DependentUpon>CreateItemForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\Item.cs" />
-    <Compile Include="clases\ListGlosary.cs" />
-    <Compile Include="forms\LogInForm.cs">
+    <Compile Include="clases\other\Item.cs" />
+    <Compile Include="clases\other\ListGlosary.cs" />
+    <Compile Include="forms\logIn\LogInForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\LogInForm.Designer.cs">
+    <Compile Include="forms\logIn\LogInForm.Designer.cs">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\CreateSquadForm.cs">
+    <Compile Include="forms\general\CreateSquadForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\CreateSquadForm.Designer.cs">
+    <Compile Include="forms\general\CreateSquadForm.Designer.cs">
       <DependentUpon>CreateSquadForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\Operation.cs" />
-    <Compile Include="forms\OperationForm.cs">
+    <Compile Include="clases\other\Operation.cs" />
+    <Compile Include="forms\general\OperationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\OperationForm.Designer.cs">
+    <Compile Include="forms\general\OperationForm.Designer.cs">
       <DependentUpon>OperationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\Person.cs" />
+    <Compile Include="clases\person\Person.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="forms\RegisterForm.cs">
+    <Compile Include="forms\logIn\RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\RegisterForm.Designer.cs">
+    <Compile Include="forms\logIn\RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\Scientist.cs" />
-    <Compile Include="forms\ScientistForm.cs">
+    <Compile Include="clases\person\Scientist.cs" />
+    <Compile Include="forms\scientist\ScientistForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\ScientistForm.Designer.cs">
+    <Compile Include="forms\scientist\ScientistForm.Designer.cs">
       <DependentUpon>ScientistForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\Soldier.cs" />
-    <Compile Include="clases\Squad.cs" />
-    <Compile Include="forms\SquadControlForm.cs">
+    <Compile Include="clases\person\Soldier.cs" />
+    <Compile Include="clases\other\Squad.cs" />
+    <Compile Include="forms\general\SquadControlForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\SquadControlForm.Designer.cs">
+    <Compile Include="forms\general\SquadControlForm.Designer.cs">
       <DependentUpon>SquadControlForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\StartForm.cs">
+    <Compile Include="StartForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\StartForm.Designer.cs">
+    <Compile Include="StartForm.Designer.cs">
       <DependentUpon>StartForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="clases\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="clases\User.cs" />
-    <EmbeddedResource Include="forms\BaseStatusForm.resx">
+    <Compile Include="clases\person\User.cs" />
+    <EmbeddedResource Include="forms\general\BaseStatusForm.resx">
       <DependentUpon>BaseStatusForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\CreateOperationForm.resx">
+    <EmbeddedResource Include="forms\general\CreateOperationForm.resx">
       <DependentUpon>CreateOperationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\DistributorForm.resx">
+    <EmbeddedResource Include="forms\distributor\DistributorForm.resx">
       <DependentUpon>DistributorForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\EnlistSoldierForm.resx">
+    <EmbeddedResource Include="forms\general\EnlistSoldierForm.resx">
       <DependentUpon>EnlistSoldierForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\GeneralForm.resx">
+    <EmbeddedResource Include="forms\general\GeneralForm.resx">
       <DependentUpon>GeneralForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\GunsmithForm.resx">
+    <EmbeddedResource Include="forms\gunsmith\GunsmithForm.resx">
       <DependentUpon>GunsmithForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\HealerForm.resx">
+    <EmbeddedResource Include="forms\healer\HealerForm.resx">
       <DependentUpon>HealerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\CreateItemForm.resx">
+    <EmbeddedResource Include="forms\scientist\CreateItemForm.resx">
       <DependentUpon>CreateItemForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\LogInForm.resx">
+    <EmbeddedResource Include="forms\logIn\LogInForm.resx">
       <DependentUpon>LogInForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\CreateSquadForm.resx">
+    <EmbeddedResource Include="forms\general\CreateSquadForm.resx">
       <DependentUpon>CreateSquadForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\OperationForm.resx">
+    <EmbeddedResource Include="forms\general\OperationForm.resx">
       <DependentUpon>OperationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -201,16 +202,16 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\RegisterForm.resx">
+    <EmbeddedResource Include="forms\logIn\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\ScientistForm.resx">
+    <EmbeddedResource Include="forms\scientist\ScientistForm.resx">
       <DependentUpon>ScientistForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\SquadControlForm.resx">
+    <EmbeddedResource Include="forms\general\SquadControlForm.resx">
       <DependentUpon>SquadControlForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\StartForm.resx">
+    <EmbeddedResource Include="StartForm.resx">
       <DependentUpon>StartForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="resources\Airborne.ttf" />
@@ -232,6 +233,7 @@
   <ItemGroup>
     <None Include="resources\Logo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Scintilla5.NET.5.6.1\build\scintilla5.net.targets" Condition="Exists('packages\Scintilla5.NET.5.6.1\build\scintilla5.net.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
