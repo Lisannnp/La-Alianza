@@ -8,6 +8,7 @@ namespace La_Alianza
 {
     class Squad
     {
+        public static List<Squad> listSquads = new List<Squad>();
         private int _squadID;
         private Base _currentBase;
 
@@ -17,6 +18,7 @@ namespace La_Alianza
         {
             _squadID = squadID;
             _currentBase = currentBase;
+            listSquads.Add(this);
         }
         public Squad()
         {

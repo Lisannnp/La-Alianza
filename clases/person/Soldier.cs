@@ -8,6 +8,7 @@ namespace La_Alianza
 {
     class Soldier:Person
     {
+        public static List<Soldier> listSoldiers = new List<Soldier>();
         private Item _gun;
         private Squad _squad;
         private bool _status;
@@ -23,6 +24,7 @@ namespace La_Alianza
             _squad = squad;
             _status = status;
             _base = @base;
+            listSoldiers.Add(this);
         }
         public Soldier()
         {
@@ -30,6 +32,7 @@ namespace La_Alianza
             _squad = new Squad();
             _status = true;
             _base = new Base();
+            
         }
         public override string ToString()
         {

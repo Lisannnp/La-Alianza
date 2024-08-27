@@ -8,13 +8,14 @@ namespace La_Alianza
 {
     class Distributor:User
     {
+        public static List<Distributor> listDistributors = new List<Distributor>();
         public Distributor(string name, int id, string userName, string password, string type) : base(name, id, userName, password, type)
         {
-
+            listDistributors.Add(this);
         }
         public Distributor() : base()
         {
-
+            
         }
         public override string ToString()
         {

@@ -71,29 +71,55 @@ namespace La_Alianza
             switch (formiItem)
             {
                 case "Scientist":
-                    ScientistForm Formi = new ScientistForm();
-                    Formi.Show();
-                    this.Hide();
+                    foreach(var scientist in listScientists){
+                        if (scientist.userName == TXB_Name.Text && scientist.password == TXB_Password.Text)
+                        {
+                            ScientistForm ScientistForm = new ScientistForm();
+                            ScientistForm.Show();
+                            this.Hide();
+                        }
+                    };
+                    
                 break;
                 case "Healer":
-                    HealerForm Formi2 = new HealerForm();
-                    Formi2.Show();
-                    this.Hide();
+                    foreach(var healer in listHealers){
+                        if (healer.userName == TXB_Name.Text && healer.password == TXB_Password.Text)
+                        {
+                            HealerForm HealerForm = new HealerForm();
+                            HealerForm.Show();
+                            this.Hide();
+                        }
+                    };
                 break;
                 case "Gunsmith":
-                    GunsmithForm Formi3 = new GunsmithForm();
-                    Formi3.Show();
-                    this.Hide();
+                    foreach(var gunsmith in listGunsmiths){
+                        if (gunsmith.userName == TXB_Name.Text && gunsmith.password == TXB_Password.Text)
+                        {
+                            GunsmithForm GunsmithForm = new GunsmithForm();
+                            GunsmithForm.Show();
+                            this.Hide();
+                        }
+                    };
                 break;
                 case "Distributor":
-                    DistributorForm Formi4 = new DistributorForm();
-                    Formi4.Show();
-                    this.Hide();
+                    foreach(var distributor in listDistributors){
+                        if (distributor.userName == TXB_Name.Text && distributor.password == TXB_Password.Text)
+                        {
+                            DistributorForm DistributorForm = new DistributorForm();
+                            DistributorForm.Show();
+                            this.Hide();
+                        }
+                    };
                 break;
                 case "General":
-                    GeneralForm Formi5 = new GeneralForm();
-                    Formi5.Show();
-                    this.Hide();
+                    foreach(var general in listGenerals){
+                        if (general.userName == TXB_Name.Text && general.password == TXB_Password.Text)
+                        {
+                            GeneralForm GeneralForm = new GeneralForm();
+                            GeneralForm.Show();
+                            this.Hide();
+                        }
+                    };
                 break;
             }
         }
