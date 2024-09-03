@@ -21,7 +21,7 @@ namespace La_Alianza
             _cargamentID = cargamentID;
             _destination = destination;
             _listContents = listContents;
-            ListGlosary.listCargaments.Add(this);
+            clases.other.ListGlosary.listCargaments.Add(this);
         }
         public Cargament()
         {

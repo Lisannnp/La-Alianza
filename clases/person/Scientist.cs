@@ -8,10 +8,10 @@ namespace La_Alianza
 {
     class Scientist:User
     {
-        public static List<Scientist> listScientists = new List<Scientist>();
+        //public static List<Scientist> listScientists = new List<Scientist>();
         public Scientist(string name, int id, string userName, string password, string type) : base(name, id, userName, password, type)
         {
-            listScientists.Add(this);
+            //listScientists.Add(this);
         }
         public Scientist() : base()
         {

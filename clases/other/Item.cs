@@ -8,7 +8,6 @@ namespace La_Alianza
 {
     class Item
     {
-        public static List<Item> listPackaging = new List<Item>();
         private int _itemID;
         private Scientist _creator;
 
@@ -29,7 +28,7 @@ namespace La_Alianza
             _itemID = itemID;
             _creator = creator;
             Type = type;
-            listItems.Add(this);
+            clases.other.ListGlosary.listItems.Add(this);
         }
         public Item()
         {

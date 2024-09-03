@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clases\other\Base.cs" />
+    <Compile Include="clases\other\ListGlosary.cs" />
     <Compile Include="clases\person\Healer.cs" />
     <Compile Include="clases\person\BaseMember.cs" />
     <Compile Include="forms\general\BaseStatusForm.cs">
@@ -108,7 +109,6 @@
       <DependentUpon>CreateItemForm.cs</DependentUpon>
     </Compile>
     <Compile Include="clases\other\Item.cs" />
-    <Compile Include="clases\other\ListGlosary.cs" />
     <Compile Include="forms\logIn\LogInForm.cs">
       <SubType>Form</SubType>
     </Compile>
