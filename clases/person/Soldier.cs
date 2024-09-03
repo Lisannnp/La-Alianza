@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using La_Alianza.clases.other;
 
 namespace La_Alianza
 {
     class Soldier:Person
     {
-        public static List<Soldier> listSoldiers = new List<Soldier>();
+        
         private Item _gun;
         private Squad _squad;
         private bool _status;
@@ -24,7 +25,7 @@ namespace La_Alianza
             _squad = squad;
             _status = status;
             _base = @base;
-            listSoldiers.Add(this);
+            Base.ListSoldiers.Add(this);
         }
         public Soldier()
         {

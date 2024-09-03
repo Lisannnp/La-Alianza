@@ -252,7 +252,7 @@
 
         #endregion
         private System.Windows.Forms.Label LBL_List;
-        private System.Windows.Forms.TableLayoutPanel Layout;
+        private new System.Windows.Forms.TableLayoutPanel Layout;
         private System.Windows.Forms.Panel Layout2;
         private System.Windows.Forms.TableLayoutPanel Layout3;
         private System.Windows.Forms.Label LBL_Title;

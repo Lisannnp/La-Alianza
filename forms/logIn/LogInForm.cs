@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
+using La_Alianza.clases.other;
 
 namespace La_Alianza
 {
@@ -71,8 +72,9 @@ namespace La_Alianza
             switch (formiItem)
             {
                 case "Scientist":
-                    foreach(var scientist in listScientists){
-                        if (scientist.userName == TXB_Name.Text && scientist.password == TXB_Password.Text)
+                    foreach(var scientist in ListGlosary.listScientists)
+                    {
+                        if (scientist.UserName == TXB_Name.Text && scientist.Password == TXB_Password.Text)
                         {
                             ScientistForm ScientistForm = new ScientistForm();
                             ScientistForm.Show();
@@ -82,8 +84,8 @@ namespace La_Alianza
                     
                 break;
                 case "Healer":
-                    foreach(var healer in listHealers){
-                        if (healer.userName == TXB_Name.Text && healer.password == TXB_Password.Text)
+                    foreach(var healer in ListGlosary.listHealers){
+                        if (healer.UserName == TXB_Name.Text && healer.Password == TXB_Password.Text)
                         {
                             HealerForm HealerForm = new HealerForm();
                             HealerForm.Show();
@@ -92,8 +94,8 @@ namespace La_Alianza
                     };
                 break;
                 case "Gunsmith":
-                    foreach(var gunsmith in listGunsmiths){
-                        if (gunsmith.userName == TXB_Name.Text && gunsmith.password == TXB_Password.Text)
+                    foreach(var gunsmith in ListGlosary.listGunsmiths){
+                        if (gunsmith.UserName == TXB_Name.Text && gunsmith.Password == TXB_Password.Text)
                         {
                             GunsmithForm GunsmithForm = new GunsmithForm();
                             GunsmithForm.Show();
@@ -102,8 +104,8 @@ namespace La_Alianza
                     };
                 break;
                 case "Distributor":
-                    foreach(var distributor in listDistributors){
-                        if (distributor.userName == TXB_Name.Text && distributor.password == TXB_Password.Text)
+                    foreach(var distributor in ListGlosary.listDistributors){
+                        if (distributor.UserName == TXB_Name.Text && distributor.Password == TXB_Password.Text)
                         {
                             DistributorForm DistributorForm = new DistributorForm();
                             DistributorForm.Show();
@@ -112,8 +114,8 @@ namespace La_Alianza
                     };
                 break;
                 case "General":
-                    foreach(var general in listGenerals){
-                        if (general.userName == TXB_Name.Text && general.password == TXB_Password.Text)
+                    foreach(var general in ListGlosary.listGenerals){
+                        if (general.UserName == TXB_Name.Text && general.Password == TXB_Password.Text)
                         {
                             GeneralForm GeneralForm = new GeneralForm();
                             GeneralForm.Show();

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using La_Alianza.clases.other;
 
 namespace La_Alianza
 {
@@ -21,7 +22,7 @@ namespace La_Alianza
             _cargamentID = cargamentID;
             _destination = destination;
             _listContents = listContents;
-            clases.other.ListGlosary.listCargaments.Add(this);
+            ListGlosary.listCargaments.Add(this);
         }
         public Cargament()
         {
