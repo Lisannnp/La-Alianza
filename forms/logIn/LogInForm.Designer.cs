@@ -41,7 +41,6 @@ namespace La_Alianza
             this.TXB_Name = new System.Windows.Forms.TextBox();
             this.BTN_Start = new System.Windows.Forms.Button();
             this.BTN_LogIn = new System.Windows.Forms.Button();
-            this.CMB_Formi = new System.Windows.Forms.ComboBox();
             this.Layout1.SuspendLayout();
             this.FlowLayout1.SuspendLayout();
             this.TableLayout2.SuspendLayout();
@@ -61,7 +60,6 @@ namespace La_Alianza
             this.Layout1.Controls.Add(this.TXB_Name, 0, 4);
             this.Layout1.Controls.Add(this.BTN_Start, 0, 16);
             this.Layout1.Controls.Add(this.BTN_LogIn, 0, 9);
-            this.Layout1.Controls.Add(this.CMB_Formi, 0, 13);
             this.Layout1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Layout1.Location = new System.Drawing.Point(0, 0);
             this.Layout1.Margin = new System.Windows.Forms.Padding(0);
@@ -114,6 +112,7 @@ namespace La_Alianza
             this.TXB_Password.Name = "TXB_Password";
             this.TXB_Password.Size = new System.Drawing.Size(158, 13);
             this.TXB_Password.TabIndex = 7;
+            this.TXB_Password.UseSystemPasswordChar = true;
             // 
             // BTN_Exit
             // 
@@ -249,15 +248,6 @@ namespace La_Alianza
             this.BTN_LogIn.UseVisualStyleBackColor = false;
             this.BTN_LogIn.Click += new System.EventHandler(this.BTN_LogIn_Click);
             // 
-            // CMB_Formi
-            // 
-            this.CMB_Formi.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.CMB_Formi.FormattingEnabled = true;
-            this.CMB_Formi.Location = new System.Drawing.Point(156, 335);
-            this.CMB_Formi.Name = "CMB_Formi";
-            this.CMB_Formi.Size = new System.Drawing.Size(121, 21);
-            this.CMB_Formi.TabIndex = 39;
-            // 
             // LogInForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -293,6 +283,5 @@ namespace La_Alianza
         private System.Windows.Forms.Button BTN_Start;
         private System.Windows.Forms.Button BTN_LogIn;
         private System.Windows.Forms.Label LBL_Title;
-        private System.Windows.Forms.ComboBox CMB_Formi;
     }
 }

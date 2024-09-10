@@ -19,7 +19,16 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+            CMB_Rol.Items.Add("Scientist");
+            CMB_Rol.Items.Add("Distributor");
+            CMB_Rol.Items.Add("Healer");
+            CMB_Rol.Items.Add("Gunsmith");
             CMB_Rol.Items.Add("General");
+
+
+            LBL_Base.Visible = false;
+            TXB_Base.Visible = false;
+            CMB_Base.Visible = false;
 
         }
 
@@ -73,10 +82,134 @@ namespace La_Alianza
 
         private void CMB_Rol_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (CMB_Rol.SelectedIndex == 0)
+
+            switch (CMB_Rol.SelectedItem.ToString())
             {
-                LBL_Base.Visible = true;
-                TXB_Base.Visible = true;
+                case "Scientist":
+                    LBL_Base.Visible = false;
+                    TXB_Base.Visible = false;
+                    CMB_Base.Visible = false;
+                    break;
+
+                case "General":
+                    LBL_Base.Visible = true;
+                    TXB_Base.Visible = true;
+                    CMB_Base.Visible = false;
+                    break;
+                case "Gunsmith":
+                    LBL_Base.Visible = true;
+                    TXB_Base.Visible = false;
+                    CMB_Base.Visible = true;
+                    break;
+                case "Healer":
+                    LBL_Base.Visible = true;
+                    TXB_Base.Visible = false;
+                    CMB_Base.Visible = true;
+                    break;
+                case "Distributor":
+                    LBL_Base.Visible = false;
+                    TXB_Base.Visible = false;
+                    CMB_Base.Visible = false;
+                    break;
+            }
+        }
+        private void BTN_Register_Click(object sender, EventArgs e){
+            string rol = CMB_Rol.SelectedItem.ToString();
+
+            foreach (var i in ListGlosary.listUsers)
+            {
+                if (TXB_Name.Text == i.Name)
+                {
+                    MessageBox.Show("This username cant be used");
+                    TXB_Name.Text = "";
+                } else
+                {
+                    string username = TXB_Name.Text;
+                    string pass = TXB_Password.Text;
+                    string baseSelected = TXB_Base.Text;
+                    Base basefromcombo = (Base)CMB_Base.SelectedItem;
+
+                    switch (rol)
+                    {
+                        case "Scientist":
+                            Scientist scientist = new Scientist();
+                            scientist.UserName = username;
+                            scientist.Password = pass;
+                            scientist.Type = "Scientist";
+                            ListGlosary.CurrentUser = scientist;
+                            break;
+
+                        case "General":
+                            General general = new General();
+                            foreach (var a in ListGlosary.listBases)
+                            {
+                                if (baseSelected == a.Name)
+                                {
+                                    MessageBox.Show("La base que se intenta crear ya existe, asigne una nueva base al general que se quiere crear");
+                                    break;
+                                }
+                            }
+                            general.CreateBase(baseSelected);
+                            general.UserName = username;
+                            general.Password = pass;
+                            general.Type = "General";
+                            general.Base.Name = baseSelected;
+                            LBL_Base.Visible = true;
+                            TXB_Base.Visible = true;
+                            CMB_Base.Visible = false;
+                            ListGlosary.CurrentUser = general;
+
+                            break;
+                        case "Gunsmith":
+                            Gunsmith gunsmith = new Gunsmith();
+                            gunsmith.UserName = username;
+                            gunsmith.Password = pass;
+                            gunsmith.Type = "Gunsmith";
+                            gunsmith.Base = basefromcombo;
+                            LBL_Base.Visible = true;
+                            TXB_Base.Visible = false;
+                            CMB_Base.Visible = true;
+
+                            ListGlosary.CurrentUser = gunsmith;
+
+                            break;
+                        case "Healer":
+                            Healer healer = new Healer();
+                            healer.UserName = username;
+                            healer.Password = pass;
+                            healer.Type = "Healer";
+                            healer.Base = basefromcombo;
+                            LBL_Base.Visible = true;
+                            TXB_Base.Visible = false;
+                            CMB_Base.Visible = true;
+                            ListGlosary.CurrentUser = healer;
+
+
+                            break;
+                        case "Distributor":
+                            Distributor distributor = new Distributor();
+                            distributor.UserName = username;
+                            distributor.Password = pass;
+                            distributor.Type = "Distributor";
+                            LBL_Base.Visible = false;
+                            TXB_Base.Visible = false;
+                            CMB_Base.Visible = false;
+                            ListGlosary.CurrentUser = distributor;
+
+                            break;
+                        default:
+                            LBL_Base.Visible = false;
+                            TXB_Base.Visible = false;
+                            CMB_Base.Visible = false;
+                            break;
+                    }
+
+                    TXB_Base.Text = "";
+                    CMB_Base.Text = "";
+                    CMB_Rol.Text = "";
+                    TXB_Name.Text = "";
+                    TXB_Password.Text = "";
+                }
             }
         }
     }

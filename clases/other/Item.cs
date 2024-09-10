@@ -3,43 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using La_Alianza.clases.other;
+using La_Alianza;
 
-namespace La_Alianza
-{
-    class Item
+
+    public class Item
     {
         private int _itemID;
         private Scientist _creator;
-
-          public enum _type
-            {
-                Medicine,
-                Gun
-            }
-        //pedir ayuda a luck con el enum
-
+        public string _type;
 
         internal Scientist Creator { get => _creator; set => _creator = value; }
         public int ItemID { get => _itemID; set => _itemID = value; }
-        public  _type Type { get; set; }
-
-        public Item(int itemID, Scientist creator, _type type)
+        public string Type { get => _type; set => _type = value; }
+        public Item(int itemID, Scientist creator, string type)
         {
-            _itemID = itemID;
+            _itemID = ListGlosary.listItems.Count;
             _creator = creator;
-            Type = type;
+            _type = type;
             ListGlosary.listItems.Add(this);
         }
         public Item()
         {
-            _itemID = 0;
+            _itemID = ListGlosary.listItems.Count;
             _creator = new Scientist();
-            Type = _type.Gun;
+            _type = "";
         }
         public override string ToString()
         {
             return ItemID.ToString();
         }
     }
-}

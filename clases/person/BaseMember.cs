@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using La_Alianza;
 
-namespace La_Alianza
-{
-    class BaseMember : User
+
+    public class BaseMember : User
     {
         private Base _base;
 
@@ -25,4 +25,4 @@ namespace La_Alianza
             return base.ToString();
         }
     }
-}
+

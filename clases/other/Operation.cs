@@ -3,33 +3,47 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using La_Alianza;
 
-namespace La_Alianza
-{
-    class Operation
+
+    public class Operation
     {
         private int _operationID;
-        private int _difficulty;
         private Squad _squad;
 
         public int OperationID { get => _operationID; set => _operationID = value; }
-        public int Difficulty { get => _difficulty; set => _difficulty = value; }
-        internal Squad Squad { get => _squad; set => _squad = value; }
+        internal Squad Ssquad { get => _squad; set => _squad = value; }
         public Operation(int operationID, int difficulty, Squad squad)
         {
-            _operationID = operationID;
-            _difficulty = difficulty;
+            _operationID = ListGlosary.listOperations.Count;
             _squad = squad;
+        ListGlosary.listOperations.Add(this);
         }
         public Operation()
         {
-            _operationID = 0;
-            _difficulty = 0;
+            _operationID = ListGlosary.listOperations.Count;
             _squad = new Squad();
         }
         public override string ToString()
         {
             return _operationID.ToString();
         }
+        public void RunOperation()
+        {
+            Random random = new Random();
+            int randomValue = random.Next(0, 2); 
+            if (randomValue == 1) 
+            {
+                foreach (var I in Ssquad.ListSquadsSoldiers)
+                {
+                    I.Status = true;
+                }
+            }else
+            {
+                foreach (var Item in Ssquad.ListSquadsSoldiers)
+                {
+                    Item.Status = false;
+                }
+            }
+        }
     }
-}

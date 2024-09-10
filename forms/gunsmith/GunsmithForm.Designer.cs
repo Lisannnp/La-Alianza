@@ -33,12 +33,12 @@ namespace La_Alianza
             this.BTN_LogOut = new System.Windows.Forms.Button();
             this.LBL_Soldier = new System.Windows.Forms.Label();
             this.LBL_Gun = new System.Windows.Forms.Label();
-            this.BTN_Arm = new System.Windows.Forms.Button();
             this.TableLayout2 = new System.Windows.Forms.TableLayoutPanel();
             this.LBL_Title = new System.Windows.Forms.Label();
             this.PCB_Logo = new System.Windows.Forms.PictureBox();
             this.CMB_Gun = new System.Windows.Forms.ComboBox();
             this.CMB_Soldier = new System.Windows.Forms.ComboBox();
+            this.BTN_Arm = new System.Windows.Forms.Button();
             this.Layout1.SuspendLayout();
             this.TableLayout2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PCB_Logo)).BeginInit();
@@ -52,10 +52,10 @@ namespace La_Alianza
             this.Layout1.Controls.Add(this.BTN_LogOut, 0, 11);
             this.Layout1.Controls.Add(this.LBL_Soldier, 0, 3);
             this.Layout1.Controls.Add(this.LBL_Gun, 0, 6);
-            this.Layout1.Controls.Add(this.BTN_Arm, 0, 9);
             this.Layout1.Controls.Add(this.TableLayout2, 0, 1);
             this.Layout1.Controls.Add(this.CMB_Gun, 0, 7);
             this.Layout1.Controls.Add(this.CMB_Soldier, 0, 4);
+            this.Layout1.Controls.Add(this.BTN_Arm, 0, 9);
             this.Layout1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Layout1.Location = new System.Drawing.Point(0, 0);
             this.Layout1.Margin = new System.Windows.Forms.Padding(0);
@@ -120,21 +120,6 @@ namespace La_Alianza
             this.LBL_Gun.TabIndex = 46;
             this.LBL_Gun.Text = "Gun:";
             this.LBL_Gun.UseWaitCursor = true;
-            // 
-            // BTN_Arm
-            // 
-            this.BTN_Arm.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BTN_Arm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.BTN_Arm.FlatAppearance.BorderSize = 0;
-            this.BTN_Arm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTN_Arm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_Arm.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BTN_Arm.Location = new System.Drawing.Point(162, 289);
-            this.BTN_Arm.Name = "BTN_Arm";
-            this.BTN_Arm.Size = new System.Drawing.Size(110, 25);
-            this.BTN_Arm.TabIndex = 48;
-            this.BTN_Arm.Text = "Arm";
-            this.BTN_Arm.UseVisualStyleBackColor = false;
             // 
             // TableLayout2
             // 
@@ -206,6 +191,22 @@ namespace La_Alianza
             this.CMB_Soldier.Size = new System.Drawing.Size(158, 21);
             this.CMB_Soldier.TabIndex = 59;
             // 
+            // BTN_Arm
+            // 
+            this.BTN_Arm.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BTN_Arm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.BTN_Arm.FlatAppearance.BorderSize = 0;
+            this.BTN_Arm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTN_Arm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.BTN_Arm.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BTN_Arm.Location = new System.Drawing.Point(162, 289);
+            this.BTN_Arm.Name = "BTN_Arm";
+            this.BTN_Arm.Size = new System.Drawing.Size(110, 25);
+            this.BTN_Arm.TabIndex = 60;
+            this.BTN_Arm.Text = "Arm";
+            this.BTN_Arm.UseVisualStyleBackColor = false;
+            this.BTN_Arm.Click += new System.EventHandler(this.BTN_Arm_Click);
+            // 
             // GunsmithForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -230,11 +231,11 @@ namespace La_Alianza
         private System.Windows.Forms.Button BTN_LogOut;
         private System.Windows.Forms.Label LBL_Soldier;
         private System.Windows.Forms.Label LBL_Gun;
-        private System.Windows.Forms.Button BTN_Arm;
         private System.Windows.Forms.TableLayoutPanel TableLayout2;
         private System.Windows.Forms.Label LBL_Title;
         private System.Windows.Forms.PictureBox PCB_Logo;
         private System.Windows.Forms.ComboBox CMB_Gun;
         private System.Windows.Forms.ComboBox CMB_Soldier;
+        private System.Windows.Forms.Button BTN_Arm;
     }
 }

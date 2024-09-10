@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using La_Alianza;
 
-namespace La_Alianza
-{
-    class User:Person
+    public class User:Person
     {
         private string _userName;
         private string _password;
@@ -32,4 +31,3 @@ namespace La_Alianza
             return base.ToString();
         }
     }
-}

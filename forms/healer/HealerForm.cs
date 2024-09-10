@@ -15,10 +15,20 @@ namespace La_Alianza
 {
     public partial class HealerForm : Form
     {
+        private Healer h;
         public HealerForm()
         {
             InitializeComponent();
             InitAirborneFont();
+
+            foreach (var i in ListGlosary.listUsers)
+            {
+                if(i == ListGlosary.CurrentUser)
+                {
+                    //h = i;
+                    //CMB_Soldier.DataSource = i.Base.ListSoldiers;
+                }
+            }
         }
 
         private void BTN_LogOut_Click(object sender, EventArgs e)
@@ -40,13 +50,17 @@ namespace La_Alianza
 
             FontStyle boldStyle = FontStyle.Bold;
 
-            //Agregar los objetos que la vayan a usar
+            //Agregar los obje tos que la vayan a usar
             LBL_Soldier.Font = new Font(pfc.Families[0], 12, boldStyle);
             CMB_Soldier.Font = new Font(pfc.Families[0], 9, boldStyle);
             BTN_Heal.Font = new Font(pfc.Families[0], 8, boldStyle);
             BTN_LogOut.Font = new Font(pfc.Families[0], 12, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 42, boldStyle);
+        }
+        public void BTN_Heal_Click(object sender, EventArgs e){
+            Soldier soldier = (Soldier)CMB_Soldier.SelectedItem;
+            h.HealSoldier(soldier);
         }
     }
 }

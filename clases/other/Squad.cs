@@ -1,32 +1,51 @@
-﻿using System;
+﻿using La_Alianza;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace La_Alianza
+public class Squad
 {
-    class Squad
-    {
-        private int _squadID;
-        private Base _currentBase;
+    private int _squadID;
+    private Base _currentBase;
+    private List<Soldier> _listSquadsSoldiers = new List<Soldier>();  
 
-        public int SquadID { get => _squadID; set => _squadID = value; }
-        internal Base CurrentBase { get => _currentBase; set => _currentBase = value; }
-        public Squad(int squadID, Base currentBase)
-        {
-            _squadID = squadID;
-            _currentBase = currentBase;
-            Base.ListSquads.Add(this);
-        }
-        public Squad()
-        {
-            _squadID = 0;
-            _currentBase = new Base();
-        }
-        public override string ToString()
-        {
-            return _squadID.ToString();
-        }
+    public int SquadID { get => _squadID; set => _squadID = value; }
+    internal Base CurrentBase { get => _currentBase; set => _currentBase = value; }
+
+    internal List<Soldier> ListSquadsSoldiers { get => _listSquadsSoldiers; set => _listSquadsSoldiers = value; }
+
+    public Squad(int squadID, Base currentBase, List<Soldier> listSquadsSoldiers, Base @base)
+    {
+        _squadID = currentBase.ListSquads.Count;
+        _currentBase = currentBase;
+        currentBase.ListSquads.Add(this);
+        _listSquadsSoldiers = listSquadsSoldiers;
+    }
+
+    public Squad()
+    {
+        _squadID = CurrentBase.ListSquads.Count;
+        _currentBase = new Base();
+        _listSquadsSoldiers = new List<Soldier>();  
+    }
+
+    public override string ToString()
+    {
+        return _squadID.ToString();
+    }
+
+    public void AddSoldier(Soldier s)
+    {
+        _listSquadsSoldiers.Add(s);  
+    }
+
+    public void RemoveSoldier(Soldier s)
+    {
+        _listSquadsSoldiers.Remove(s);  
+    }
+
+    public void Move(Squad s, Base b)
+    {
+        s._currentBase = b;  
     }
 }
+
+

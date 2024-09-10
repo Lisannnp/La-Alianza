@@ -15,10 +15,21 @@ namespace La_Alianza
 {
     public partial class GunsmithForm : Form
     {
+
+        private Gunsmith g;
         public GunsmithForm()
         {
             InitializeComponent();
             InitAirborneFont();
+
+            foreach (var i in ListGlosary.listUsers)
+            {
+                if (i == ListGlosary.CurrentUser)
+                {
+                    //g = i;
+                    //CMB_Soldier.DataSource = i.Base.ListSoldiers;
+                }
+            }
         }
 
         private void BTN_LogOut_Click(object sender, EventArgs e)
@@ -49,6 +60,14 @@ namespace La_Alianza
             BTN_LogOut.Font = new Font(pfc.Families[0], 12, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 42, boldStyle);
+        }
+
+        private void BTN_Arm_Click(object sender, EventArgs e)
+        {
+            Soldier soldier = (Soldier)CMB_Soldier.SelectedItem;
+            Item gun = (Item)CMB_Gun.SelectedItem;
+
+            g.AssignGun(soldier, gun);
         }
     }
 }

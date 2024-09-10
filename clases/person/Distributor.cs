@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using La_Alianza.clases.other;
+using La_Alianza;
 
-namespace La_Alianza
-{
-    class Distributor:User
+
+    public class Distributor:User
     {
         
         public Distributor(string name, int id, string userName, string password, string type) : base(name, id, userName, password, type)
         {
-            ListGlosary.listDistributors.Add(this);
+            ListGlosary.listUsers.Add(this);
         }
         public Distributor() : base()
         {
@@ -23,4 +22,3 @@ namespace La_Alianza
             return base.ToString();
         }
     }
-}

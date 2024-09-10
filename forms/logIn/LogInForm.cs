@@ -9,23 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
-using La_Alianza.clases.other;
 
 namespace La_Alianza
 {
+
     public partial class LogInForm : Form
     {
-        public LogInForm()
+            public LogInForm()
         {
             InitializeComponent();
             InitAirborneFont();
-
-            CMB_Formi.Items.Add("Scientist");
-            CMB_Formi.Items.Add("Healer");
-            CMB_Formi.Items.Add("Gunsmith");
-            CMB_Formi.Items.Add("Distributor");
-            CMB_Formi.Items.Add("General");
-
         }
 
         private void BTN_Start_Click(object sender, EventArgs e)
@@ -67,63 +60,51 @@ namespace La_Alianza
 
         private void BTN_LogIn_Click(object sender, EventArgs e)
         {
-            string formiItem = CMB_Formi.SelectedItem.ToString();
+            string username = TXB_Name.Text;
+            string password = TXB_Password.Text;
 
-            switch (formiItem)
-            {
-                case "Scientist":
-                    foreach(var scientist in ListGlosary.listScientists)
-                    {
-                        if (scientist.UserName == TXB_Name.Text && scientist.Password == TXB_Password.Text)
-                        {
-                            ScientistForm ScientistForm = new ScientistForm();
-                            ScientistForm.Show();
-                            this.Hide();
-                        }
-                    };
-                    
-                break;
-                case "Healer":
-                    foreach(var healer in ListGlosary.listHealers){
-                        if (healer.UserName == TXB_Name.Text && healer.Password == TXB_Password.Text)
-                        {
-                            HealerForm HealerForm = new HealerForm();
-                            HealerForm.Show();
-                            this.Hide();
-                        }
-                    };
-                break;
-                case "Gunsmith":
-                    foreach(var gunsmith in ListGlosary.listGunsmiths){
-                        if (gunsmith.UserName == TXB_Name.Text && gunsmith.Password == TXB_Password.Text)
-                        {
-                            GunsmithForm GunsmithForm = new GunsmithForm();
-                            GunsmithForm.Show();
-                            this.Hide();
-                        }
-                    };
-                break;
-                case "Distributor":
-                    foreach(var distributor in ListGlosary.listDistributors){
-                        if (distributor.UserName == TXB_Name.Text && distributor.Password == TXB_Password.Text)
-                        {
-                            DistributorForm DistributorForm = new DistributorForm();
-                            DistributorForm.Show();
-                            this.Hide();
-                        }
-                    };
-                break;
-                case "General":
-                    foreach(var general in ListGlosary.listGenerals){
-                        if (general.UserName == TXB_Name.Text && general.Password == TXB_Password.Text)
-                        {
-                            GeneralForm GeneralForm = new GeneralForm();
-                            GeneralForm.Show();
-                            this.Hide();
-                        }
-                    };
-                break;
+            foreach (var scientist in ListGlosary.listUsers){
+                if (scientist.UserName == username && scientist.Password == password){
+                    ScientistForm scientistform = new ScientistForm();
+                    scientistform.Show();
+                    this.Hide();
+                }
             }
+            foreach (var general in ListGlosary.listUsers)
+            {
+                if (general.UserName == username && general.Password == password){
+                    GeneralForm generalform = new GeneralForm();
+                    generalform.Show();
+                    this.Hide();
+                }
+            }
+            foreach (var healer in ListGlosary.listUsers)
+            {
+                if (healer.UserName == username && healer.Password == password){
+                    HealerForm healerform = new HealerForm();
+                    healerform.Show();
+                    this.Hide();
+                }
+            }
+            foreach (var gunsmith in ListGlosary.listUsers)
+            {
+                if (gunsmith.UserName == username && gunsmith.Password == password){
+                    GunsmithForm gunsmithform = new GunsmithForm();
+                    gunsmithform.Show();
+                    this.Hide();
+                }
+            }
+            foreach (var  distributor in ListGlosary.listUsers)
+            {
+                if (distributor.UserName == username && distributor.Password == password){
+                    DistributorForm distributorform = new DistributorForm();
+                    distributorform.Show();
+                    this.Hide();
+                }
+
+            }
+            
+            
         }
     }
 }
