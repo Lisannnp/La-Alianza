@@ -25,8 +25,8 @@ namespace La_Alianza
             {
                 if(i == ListGlosary.CurrentHealer)
                 {
-                    List<Soldier> soldi = ListGlosary.listSoldiersTemporary.Where(c => c.Status == true).ToList();
-                    CMB_Soldier.DataSource = soldi;
+                    List<Soldier> soldiert = ListGlosary.listSoldiersTemporary.Where(c => c.Status == true).ToList();
+                   // CMB_Soldier.DataSource = soldi;
                 }
             }
            

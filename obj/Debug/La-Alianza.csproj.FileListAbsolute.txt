@@ -289,3 +289,13 @@ C:\Users\iog9\Documents\GitHub\La-Alianza\obj\Debug\La-Alianza.csproj.CoreCompil
 C:\Users\iog9\Documents\GitHub\La-Alianza\obj\Debug\La-Alianza.csproj.CopyComplete
 C:\Users\iog9\Documents\GitHub\La-Alianza\obj\Debug\La-Alianza.exe
 C:\Users\iog9\Documents\GitHub\La-Alianza\obj\Debug\La-Alianza.pdb
+C:\Users\ulises\Desktop\La-Alianza-main\bin\Debug\runtimes\win-x64\native\Lexilla.dll
+C:\Users\ulises\Desktop\La-Alianza-main\bin\Debug\runtimes\win-x64\native\Scintilla.dll
+C:\Users\ulises\Desktop\La-Alianza-main\bin\Debug\runtimes\win-x86\native\Lexilla.dll
+C:\Users\ulises\Desktop\La-Alianza-main\bin\Debug\runtimes\win-x86\native\Scintilla.dll
+C:\Users\ulises\Desktop\La-Alianza-main\bin\Debug\La-Alianza.exe.config
+C:\Users\ulises\Desktop\La-Alianza-main\bin\Debug\La-Alianza.exe
+C:\Users\ulises\Desktop\La-Alianza-main\bin\Debug\La-Alianza.pdb
+C:\Users\ulises\Desktop\La-Alianza-main\bin\Debug\Scintilla.NET.dll
+C:\Users\ulises\Desktop\La-Alianza-main\bin\Debug\Scintilla.NET.xml
+C:\Users\ulises\Desktop\La-Alianza-main\obj\Debug\La-Alianza.csproj.Up2Date

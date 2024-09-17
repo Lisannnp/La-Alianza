@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 
 public class Operation
@@ -30,7 +31,6 @@ public class Operation
         switch (i)
         {
             case 1:
-
                 if (random.Next(100) < 80)
                 {
                     foreach (var item in s.ListSquadsSoldiers) { item.Status = true; }
@@ -60,8 +60,9 @@ public class Operation
                     foreach (var item in s.ListSquadsSoldiers) { item.Status = false; }
                 }
                 break;
-
         }
+
+
     }
     public override string ToString()
     {

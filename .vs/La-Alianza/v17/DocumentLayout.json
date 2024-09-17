@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\forms\\general\\createsquadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\general\\createsquadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\forms\\general\\createsquadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\general\\createsquadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\clases\\other\\cargament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\other\\cargament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\scientist\\scientistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\scientist\\scientistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\scientist\\scientistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\scientist\\scientistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\person\\scientist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\person\\scientist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\other\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\healer\\healerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\healer\\healerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\healer\\healerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\healer\\healerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\distributor\\distributorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\distributor\\distributorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\distributor\\distributorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\distributor\\distributorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +55,121 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateSquadForm.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\general\\CreateSquadForm.cs",
-              "RelativeDocumentMoniker": "forms\\general\\CreateSquadForm.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\general\\CreateSquadForm.cs",
-              "RelativeToolTip": "forms\\general\\CreateSquadForm.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAmwF8AAAAxAAAA",
+              "Title": "StartForm.cs",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\StartForm.cs",
+              "RelativeDocumentMoniker": "StartForm.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\StartForm.cs",
+              "RelativeToolTip": "StartForm.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAhwBMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T10:15:27.693Z",
+              "WhenOpened": "2024-09-17T22:26:19.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateSquadForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\general\\CreateSquadForm.cs",
-              "RelativeDocumentMoniker": "forms\\general\\CreateSquadForm.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\general\\CreateSquadForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "forms\\general\\CreateSquadForm.cs [Dise\u00F1o]",
+              "DocumentIndex": 7,
+              "Title": "HealerForm.cs",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\healer\\HealerForm.cs",
+              "RelativeDocumentMoniker": "forms\\healer\\HealerForm.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\healer\\HealerForm.cs",
+              "RelativeToolTip": "forms\\healer\\HealerForm.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T10:15:26.164Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-09-17T22:17:09.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HealerForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\healer\\HealerForm.cs",
+              "RelativeDocumentMoniker": "forms\\healer\\HealerForm.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\healer\\HealerForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "forms\\healer\\HealerForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:17:06.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Operation.cs",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Operation.cs",
+              "RelativeDocumentMoniker": "clases\\other\\Operation.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Operation.cs",
+              "RelativeToolTip": "clases\\other\\Operation.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:16:36.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Scientist.cs",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\person\\Scientist.cs",
+              "RelativeDocumentMoniker": "clases\\person\\Scientist.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\person\\Scientist.cs",
+              "RelativeToolTip": "clases\\person\\Scientist.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowCkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:11:09.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScientistForm.cs",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\scientist\\ScientistForm.cs",
+              "RelativeDocumentMoniker": "forms\\scientist\\ScientistForm.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\scientist\\ScientistForm.cs",
+              "RelativeToolTip": "forms\\scientist\\ScientistForm.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwF0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:10:09.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScientistForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\scientist\\ScientistForm.cs",
+              "RelativeDocumentMoniker": "forms\\scientist\\ScientistForm.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\scientist\\ScientistForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "forms\\scientist\\ScientistForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:10:07.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DistributorForm.cs",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\distributor\\DistributorForm.cs",
+              "RelativeDocumentMoniker": "forms\\distributor\\DistributorForm.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\distributor\\DistributorForm.cs",
+              "RelativeToolTip": "forms\\distributor\\DistributorForm.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:07:36.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DistributorForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\distributor\\DistributorForm.cs",
+              "RelativeDocumentMoniker": "forms\\distributor\\DistributorForm.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\distributor\\DistributorForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "forms\\distributor\\DistributorForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:07:34.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cargament.cs",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Cargament.cs",
+              "RelativeDocumentMoniker": "clases\\other\\Cargament.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Cargament.cs",
+              "RelativeToolTip": "clases\\other\\Cargament.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwDAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:55:11.538Z",
+              "EditorCaption": ""
             }
           ]
         }
