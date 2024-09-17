@@ -83,6 +83,7 @@
             this.BTN_RunOperation.TabIndex = 48;
             this.BTN_RunOperation.Text = "Run Operation";
             this.BTN_RunOperation.UseVisualStyleBackColor = false;
+            this.BTN_RunOperation.Click += new System.EventHandler(this.BTN_RunOperation_Click);
             // 
             // LBL_Operation
             // 
@@ -198,6 +199,7 @@
             this.CMB_Squad.Name = "CMB_Squad";
             this.CMB_Squad.Size = new System.Drawing.Size(158, 21);
             this.CMB_Squad.TabIndex = 57;
+            this.CMB_Squad.SelectedIndexChanged += new System.EventHandler(this.CMB_Squad_SelectedIndexChanged);
             // 
             // BTN_Plus
             // 
@@ -252,6 +254,7 @@
             this.CMB_Operation.Name = "CMB_Operation";
             this.CMB_Operation.Size = new System.Drawing.Size(158, 21);
             this.CMB_Operation.TabIndex = 57;
+            this.CMB_Operation.SelectedIndexChanged += new System.EventHandler(this.CMB_Operation_SelectedIndexChanged);
             // 
             // TableLayout2
             // 

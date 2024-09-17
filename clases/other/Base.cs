@@ -40,6 +40,7 @@ public class Base
         _listGuns = new List<Item>();
         _listSquads = new List<Squad>();
         _listSoldiers = new List<Soldier>();
+        ListGlosary.listBases.Add(this);
     }
 
     public override string ToString()

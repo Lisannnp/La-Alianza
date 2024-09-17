@@ -12,25 +12,24 @@ public class Soldier : Person
     internal Squad Squad { get => _squad; set => _squad = value; }
     internal Base Base { get => _base; set => _base = value; }
 
-    public Soldier(Item gun, Squad squad, bool status, Base @base)
+    public Soldier(string name, int id, Item gun, Squad squad, bool status, Base @base):base(name, id)
     {
         _gun = gun;
         _squad = squad;
         _status = status;
         _base = @base;
-        Base.ListSoldiers.Add(this);
+        @base.ListSoldiers.Add(this);
     }
-    public Soldier()
+    public Soldier(Base @base)
     {
         _gun = new Item();
-        _squad = new Squad();
         _status = true;
         _base = new Base();
-
+        @base.ListSoldiers.Add(this);
     }
     public override string ToString()
     {
-        return base.ToString();
+        return Name;
     }
 }
 

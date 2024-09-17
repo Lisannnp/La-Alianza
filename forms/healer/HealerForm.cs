@@ -21,12 +21,12 @@ namespace La_Alianza
             InitializeComponent();
             InitAirborneFont();
 
-            foreach (var i in ListGlosary.listUsers)
+            foreach (var i in ListGlosary.listHealers)
             {
-                if(i == ListGlosary.CurrentUser)
+                if(i == ListGlosary.CurrentHealer)
                 {
-                    //h = i;
-                    //CMB_Soldier.DataSource = i.Base.ListSoldiers;
+                    h = i;
+                    CMB_Soldier.DataSource = i.Base.ListSoldiers;
                 }
             }
         }

@@ -19,6 +19,10 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+            CMB_Squad.DataSource = ListGlosary.CurrentGeneral.Base.ListSquads;
+            Squad s = (Squad)CMB_Squad.SelectedItem;
+            DGV_Squads.DataSource = s.ListSquadsSoldiers;
+            CMB_Soldier.DataSource = ListGlosary.CurrentGeneral.Base.ListSoldiers;
         }
 
         private void BTN_Plus_Click(object sender, EventArgs e)
@@ -41,12 +45,51 @@ namespace La_Alianza
             General.Show();
             this.Hide();
         }
-
         private void BTN_AddToSquad_Click(object sender, EventArgs e)
         {
+            Squad s = (Squad)CMB_Squad.SelectedItem;
+            Soldier selectedSoldier = (Soldier)CMB_Soldier.SelectedItem;
+            bool soldierExists = false;
+            foreach (var item in s.ListSquadsSoldiers)
+            {
+                if (item == (Soldier)CMB_Soldier.SelectedItem)
+                {
+                    soldierExists = true;
+                    MessageBox.Show("Soldier already exists");
+                    break;
+                }
+            }
+            if (!soldierExists){
+                s.AddSoldier(selectedSoldier);
+            }
+            DGV_Squads.DataSource = null;
+            DGV_Squads.DataSource = s.ListSquadsSoldiers;
+            DGV_Squads.Columns["status"].Visible = false;
 
         }
 
+
+        private void BTN_RemoveFromSquad_Click(object sender, EventArgs e)
+        {
+            Squad s = (Squad)CMB_Squad.SelectedItem;
+            Soldier selectedSoldier = (Soldier)CMB_Soldier.SelectedItem;
+            bool soldierExists = false;
+            foreach (var item in s.ListSquadsSoldiers)
+            {
+                if (item != (Soldier)CMB_Soldier.SelectedItem)
+                {
+                    soldierExists = true;
+                    break;
+                }
+            }
+            if (soldierExists){
+                s.RemoveSoldier(selectedSoldier);
+            }
+            DGV_Squads.DataSource = null;
+            DGV_Squads.DataSource = s.ListSquadsSoldiers;
+            DGV_Squads.Columns["status"].Visible = false;
+
+        }
         private void InitAirborneFont()
         {
             PrivateFontCollection pfc = new PrivateFontCollection();
@@ -72,6 +115,14 @@ namespace La_Alianza
             BTN_Plus.Font = new Font(pfc.Families[0], 8, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 30, boldStyle);
+        }
+
+        private void CMB_Squad_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Squad s = (Squad)CMB_Squad.SelectedItem;
+            DGV_Squads.DataSource = null;
+            DGV_Squads.DataSource = s.ListSquadsSoldiers;
+            DGV_Squads.Columns["status"].Visible = false;
         }
     }
 }

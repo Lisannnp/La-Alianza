@@ -19,6 +19,8 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+            CMB_Operation.DataSource = ListGlosary.listOperations;
+            CMB_Squad.DataSource = ListGlosary.CurrentGeneral.Base.ListSquads;
         }
 
         private void BTN_BackToGeneral_Click(object sender, EventArgs e)
@@ -69,6 +71,25 @@ namespace La_Alianza
             BTN_BackToGeneral.Font = new Font(pfc.Families[0], 12, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 24, boldStyle);
+        }
+
+        private void BTN_RunOperation_Click(object sender, EventArgs e)
+        {
+            Operation o = (Operation)CMB_Operation.SelectedItem;
+            Squad s = (Squad)CMB_Squad.SelectedItem;
+            o.RunOperation(o.Dificulty, s);
+
+
+        }
+
+        private void CMB_Squad_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CMB_Squad.DataSource = ListGlosary.CurrentGeneral.Base.ListSquads;
+        }
+
+        private void CMB_Operation_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CMB_Operation.DataSource = ListGlosary.listOperations;
         }
     }
 }

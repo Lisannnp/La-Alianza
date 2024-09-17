@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\forms\\login\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\login\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\forms\\general\\createsquadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\general\\createsquadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\clases\\other\\squad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\other\\squad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\clases\\other\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\other\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\clases\\other\\cargament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\other\\cargament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\clases\\person\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\person\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\clases\\person\\scientist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\person\\scientist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\clases\\other\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\other\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\clases\\person\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\person\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\clases\\other\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:clases\\other\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|c:\\users\\ulises\\desktop\\la-alianza-main\\forms\\general\\createsquadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBCE96CA-8062-4A33-A9FF-21F7330FB9B5}|La-Alianza.csproj|solutionrelative:forms\\general\\createsquadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,124 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\person\\Person.cs",
-              "RelativeDocumentMoniker": "clases\\person\\Person.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\person\\Person.cs",
-              "RelativeToolTip": "clases\\person\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T01:47:02.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\logIn\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "forms\\logIn\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\logIn\\RegisterForm.cs",
-              "RelativeToolTip": "forms\\logIn\\RegisterForm.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAIwGAAAAAYAAAA",
+              "Title": "CreateSquadForm.cs",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\general\\CreateSquadForm.cs",
+              "RelativeDocumentMoniker": "forms\\general\\CreateSquadForm.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\general\\CreateSquadForm.cs",
+              "RelativeToolTip": "forms\\general\\CreateSquadForm.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAmwF8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T01:45:13.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Item.cs",
-              "RelativeDocumentMoniker": "clases\\other\\Item.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Item.cs",
-              "RelativeToolTip": "clases\\other\\Item.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB4AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T01:21:23.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Scientist.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\person\\Scientist.cs",
-              "RelativeDocumentMoniker": "clases\\person\\Scientist.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\person\\Scientist.cs",
-              "RelativeToolTip": "clases\\person\\Scientist.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA6wBAAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T01:14:12.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "General.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\person\\General.cs",
-              "RelativeDocumentMoniker": "clases\\person\\General.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\person\\General.cs",
-              "RelativeToolTip": "clases\\person\\General.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T00:53:45.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cargament.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Cargament.cs",
-              "RelativeDocumentMoniker": "clases\\other\\Cargament.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Cargament.cs",
-              "RelativeToolTip": "clases\\other\\Cargament.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAuwCkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T00:11:08.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Base.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Base.cs",
-              "RelativeDocumentMoniker": "clases\\other\\Base.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Base.cs",
-              "RelativeToolTip": "clases\\other\\Base.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T00:10:43.394Z",
+              "WhenOpened": "2024-09-17T10:15:27.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Squad.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Squad.cs",
-              "RelativeDocumentMoniker": "clases\\other\\Squad.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Squad.cs",
-              "RelativeToolTip": "clases\\other\\Squad.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBMAAAApAAAA",
+              "Title": "CreateSquadForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\general\\CreateSquadForm.cs",
+              "RelativeDocumentMoniker": "forms\\general\\CreateSquadForm.cs",
+              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\forms\\general\\CreateSquadForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "forms\\general\\CreateSquadForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T23:48:39.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Operation.cs",
-              "DocumentMoniker": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Operation.cs",
-              "RelativeDocumentMoniker": "clases\\other\\Operation.cs",
-              "ToolTip": "C:\\Users\\ulises\\Desktop\\La-Alianza-main\\clases\\other\\Operation.cs",
-              "RelativeToolTip": "clases\\other\\Operation.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAcwC0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T23:48:36.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T10:15:26.164Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

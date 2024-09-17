@@ -12,13 +12,13 @@ using La_Alianza;
 
         internal Base Base { get => _base; set => _base = value; }
 
-        public BaseMember(string name, int id, string userName, string password, string type, Base @base):base(name, id, userName, password, type)
+        public BaseMember(string name, int id, string userName, string password, string type):base(name, id, userName, password, type)
         {
-            _base = @base;
+            //_base = @base;
         }
         public BaseMember() : base()
         {
-            _base = new Base();
+            //_base = new Base();
         }
         public override string ToString()
         {

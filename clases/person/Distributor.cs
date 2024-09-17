@@ -11,13 +11,13 @@ using La_Alianza;
         
         public Distributor(string name, int id, string userName, string password, string type) : base(name, id, userName, password, type)
         {
-            ListGlosary.listUsers.Add(this);
+            ListGlosary.listDistributors.Add(this);
         }
         public Distributor() : base()
         {
-            
+            ListGlosary.listDistributors.Add(this);
         }
-        public override string ToString()
+    public override string ToString()
         {
             return base.ToString();
         }

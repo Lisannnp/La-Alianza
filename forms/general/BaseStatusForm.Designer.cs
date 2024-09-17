@@ -219,11 +219,17 @@
             this.CMB_List.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.CMB_List.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CMB_List.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.CMB_List.Items.AddRange(new object[] {
+            "Guns",
+            "Medicines",
+            "Soldiers",
+            "Squads"});
             this.CMB_List.Location = new System.Drawing.Point(138, 118);
             this.CMB_List.Margin = new System.Windows.Forms.Padding(0);
             this.CMB_List.Name = "CMB_List";
             this.CMB_List.Size = new System.Drawing.Size(158, 21);
             this.CMB_List.TabIndex = 36;
+            this.CMB_List.SelectedIndexChanged += new System.EventHandler(this.CMB_List_SelectedIndexChanged);
             // 
             // BaseStatusForm
             // 

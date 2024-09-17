@@ -48,5 +48,13 @@ namespace La_Alianza
 
             LBL_Title.Font = new Font(pfc.Families[0], 26, boldStyle);
         }
+
+        private void BTN_Create_Click(object sender, EventArgs e)
+        {
+            ListGlosary.CurrentGeneral.StartOperation(TXB_Name.Text, Convert.ToInt32(CMB_Difficulty.Text));
+            MessageBox.Show(ListGlosary.listOperations[0].OperationName);
+            CMB_Difficulty.Text = "";
+            TXB_Name.Text = "";
+        }
     }
 }

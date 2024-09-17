@@ -12,7 +12,7 @@ public class Squad
 
     internal List<Soldier> ListSquadsSoldiers { get => _listSquadsSoldiers; set => _listSquadsSoldiers = value; }
 
-    public Squad(int squadID, Base currentBase, List<Soldier> listSquadsSoldiers, Base @base)
+    public Squad(int squadID, Base currentBase, List<Soldier> listSquadsSoldiers)
     {
         _squadID = currentBase.ListSquads.Count;
         _currentBase = currentBase;
@@ -20,17 +20,14 @@ public class Squad
         _listSquadsSoldiers = listSquadsSoldiers;
     }
 
-    public Squad()
+    public Squad(Base currentBase)
     {
-        _squadID = CurrentBase.ListSquads.Count;
-        _currentBase = new Base();
+        _currentBase = currentBase;
+        _squadID = currentBase.ListSquads.Count;
+        currentBase.ListSquads.Add(this);
         _listSquadsSoldiers = new List<Soldier>();  
     }
 
-    public override string ToString()
-    {
-        return _squadID.ToString();
-    }
 
     public void AddSoldier(Soldier s)
     {
@@ -45,6 +42,10 @@ public class Squad
     public void Move(Squad s, Base b)
     {
         s._currentBase = b;  
+    }
+    public override string ToString()
+    {
+        return _squadID.ToString();
     }
 }
 

@@ -83,6 +83,7 @@
             this.BTN_Create.TabIndex = 50;
             this.BTN_Create.Text = "Create";
             this.BTN_Create.UseVisualStyleBackColor = false;
+            this.BTN_Create.Click += new System.EventHandler(this.BTN_Create_Click);
             // 
             // LBL_Difficulty
             // 
@@ -199,6 +200,10 @@
             this.CMB_Difficulty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.CMB_Difficulty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CMB_Difficulty.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.CMB_Difficulty.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3"});
             this.CMB_Difficulty.Location = new System.Drawing.Point(138, 243);
             this.CMB_Difficulty.Margin = new System.Windows.Forms.Padding(0);
             this.CMB_Difficulty.Name = "CMB_Difficulty";

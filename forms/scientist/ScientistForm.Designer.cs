@@ -39,9 +39,9 @@
             this.TableLayout2 = new System.Windows.Forms.TableLayoutPanel();
             this.LBL_Title = new System.Windows.Forms.Label();
             this.PCB_Logo = new System.Windows.Forms.PictureBox();
-            this.DGV_Squads = new System.Windows.Forms.DataGridView();
             this.BTN_Add = new System.Windows.Forms.Button();
             this.BTN_AddPackage = new System.Windows.Forms.Button();
+            this.DGV_Squads = new System.Windows.Forms.DataGridView();
             this.Layout1.SuspendLayout();
             this.Layout4.SuspendLayout();
             this.Layout5.SuspendLayout();
@@ -233,18 +233,6 @@
             this.PCB_Logo.TabIndex = 38;
             this.PCB_Logo.TabStop = false;
             // 
-            // DGV_Squads
-            // 
-            this.DGV_Squads.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.DGV_Squads.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.DGV_Squads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_Squads.Location = new System.Drawing.Point(102, 216);
-            this.DGV_Squads.Margin = new System.Windows.Forms.Padding(0);
-            this.DGV_Squads.Name = "DGV_Squads";
-            this.DGV_Squads.RowHeadersWidth = 62;
-            this.DGV_Squads.Size = new System.Drawing.Size(230, 178);
-            this.DGV_Squads.TabIndex = 47;
-            // 
             // BTN_Add
             // 
             this.BTN_Add.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -259,6 +247,7 @@
             this.BTN_Add.TabIndex = 55;
             this.BTN_Add.Text = "Add";
             this.BTN_Add.UseVisualStyleBackColor = false;
+            this.BTN_Add.Click += new System.EventHandler(this.BTN_Add_Click);
             // 
             // BTN_AddPackage
             // 
@@ -274,6 +263,19 @@
             this.BTN_AddPackage.TabIndex = 56;
             this.BTN_AddPackage.Text = "Add Package";
             this.BTN_AddPackage.UseVisualStyleBackColor = false;
+            this.BTN_AddPackage.Click += new System.EventHandler(this.BTN_AddPackage_Click);
+            // 
+            // DGV_Squads
+            // 
+            this.DGV_Squads.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.DGV_Squads.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.DGV_Squads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Squads.Location = new System.Drawing.Point(102, 216);
+            this.DGV_Squads.Margin = new System.Windows.Forms.Padding(0);
+            this.DGV_Squads.Name = "DGV_Squads";
+            this.DGV_Squads.RowHeadersWidth = 62;
+            this.DGV_Squads.Size = new System.Drawing.Size(230, 178);
+            this.DGV_Squads.TabIndex = 47;
             // 
             // ScientistForm
             // 

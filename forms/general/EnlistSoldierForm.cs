@@ -49,5 +49,16 @@ namespace La_Alianza
 
             LBL_Title.Font = new Font(pfc.Families[0], 28, boldStyle);
         }
+
+        private void BTN_Add_Click(object sender, EventArgs e)
+        {
+            try {
+                ListGlosary.CurrentGeneral.EnlistSoldier(TXB_Name.Text);
+                TXB_Name.Text = "";
+            }
+            catch (Exception ex) {
+                MessageBox.Show("No se pudo crear:" + ex.Message);
+            }
+        }
     }
 }

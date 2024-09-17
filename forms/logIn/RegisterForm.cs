@@ -1,14 +1,7 @@
-﻿using La_Alianza;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using System;
 using System.Drawing;
 using System.Drawing.Text;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace La_Alianza
@@ -113,104 +106,136 @@ namespace La_Alianza
                     break;
             }
         }
-        private void BTN_Register_Click(object sender, EventArgs e){
+        private void BTN_Register_Click(object sender, EventArgs e)
+        {
             string rol = CMB_Rol.SelectedItem.ToString();
 
-            foreach (var i in ListGlosary.listUsers)
+            string username = TXB_Name.Text;
+            string pass = TXB_Password.Text;
+            string baseSelected = TXB_Base.Text;
+            Base basefromcombo = (Base)CMB_Base.SelectedItem;
+
+            switch (rol)
             {
-                if (TXB_Name.Text == i.Name)
-                {
-                    MessageBox.Show("This username cant be used");
-                    TXB_Name.Text = "";
-                } else
-                {
-                    string username = TXB_Name.Text;
-                    string pass = TXB_Password.Text;
-                    string baseSelected = TXB_Base.Text;
-                    Base basefromcombo = (Base)CMB_Base.SelectedItem;
-
-                    switch (rol)
+                case "Scientist":
+                    foreach (var item in ListGlosary.listScientists)
                     {
-                        case "Scientist":
-                            Scientist scientist = new Scientist();
-                            scientist.UserName = username;
-                            scientist.Password = pass;
-                            scientist.Type = "Scientist";
-                            ListGlosary.CurrentUser = scientist;
-                            break;
-
-                        case "General":
-                            General general = new General();
-                            foreach (var a in ListGlosary.listBases)
-                            {
-                                if (baseSelected == a.Name)
-                                {
-                                    MessageBox.Show("La base que se intenta crear ya existe, asigne una nueva base al general que se quiere crear");
-                                    break;
-                                }
-                            }
-                            general.CreateBase(baseSelected);
-                            general.UserName = username;
-                            general.Password = pass;
-                            general.Type = "General";
-                            general.Base.Name = baseSelected;
-                            LBL_Base.Visible = true;
-                            TXB_Base.Visible = true;
-                            CMB_Base.Visible = false;
-                            ListGlosary.CurrentUser = general;
-
-                            break;
-                        case "Gunsmith":
-                            Gunsmith gunsmith = new Gunsmith();
-                            gunsmith.UserName = username;
-                            gunsmith.Password = pass;
-                            gunsmith.Type = "Gunsmith";
-                            gunsmith.Base = basefromcombo;
-                            LBL_Base.Visible = true;
-                            TXB_Base.Visible = false;
-                            CMB_Base.Visible = true;
-
-                            ListGlosary.CurrentUser = gunsmith;
-
-                            break;
-                        case "Healer":
-                            Healer healer = new Healer();
-                            healer.UserName = username;
-                            healer.Password = pass;
-                            healer.Type = "Healer";
-                            healer.Base = basefromcombo;
-                            LBL_Base.Visible = true;
-                            TXB_Base.Visible = false;
-                            CMB_Base.Visible = true;
-                            ListGlosary.CurrentUser = healer;
-
-
-                            break;
-                        case "Distributor":
-                            Distributor distributor = new Distributor();
-                            distributor.UserName = username;
-                            distributor.Password = pass;
-                            distributor.Type = "Distributor";
-                            LBL_Base.Visible = false;
-                            TXB_Base.Visible = false;
-                            CMB_Base.Visible = false;
-                            ListGlosary.CurrentUser = distributor;
-
-                            break;
-                        default:
-                            LBL_Base.Visible = false;
-                            TXB_Base.Visible = false;
-                            CMB_Base.Visible = false;
-                            break;
+                        if (TXB_Name.Text == item.Name)
+                        {
+                            MessageBox.Show("This username cant be used");
+                            TXB_Name.Text = "";
+                        }
                     }
+                    Scientist scientist = new Scientist();
+                    scientist.UserName = username;
+                    scientist.Password = pass;
+                    scientist.Type = "Scientist";
+                    ListGlosary.CurrentScientist = scientist;
+                    break;
 
-                    TXB_Base.Text = "";
-                    CMB_Base.Text = "";
-                    CMB_Rol.Text = "";
-                    TXB_Name.Text = "";
-                    TXB_Password.Text = "";
-                }
+                case "General":
+                    foreach (var item in ListGlosary.listGenerals)
+                    {
+                        if (TXB_Name.Text == item.Name)
+                        {
+                            MessageBox.Show("This username cant be used");
+                            TXB_Name.Text = "";
+                        }
+                    }
+                    General general = new General();
+                    foreach (var a in ListGlosary.listBases)
+                    {
+                        if (baseSelected == a.Name)
+                        {
+                            MessageBox.Show("The base you are trying to create already exists, please assign a new base to the general you want to create.");
+                            break;
+                        }
+                    }
+                    general.CreateBase(baseSelected);
+                    general.UserName = username;
+                    general.Password = pass;
+                    general.Type = "General";
+                    general.Base.Name = baseSelected;
+                    LBL_Base.Visible = true;
+                    TXB_Base.Visible = true;
+                    CMB_Base.Visible = false;
+                    ListGlosary.CurrentGeneral = general;
+
+                    break;
+                case "Gunsmith":
+                    foreach (var item in ListGlosary.listGunsmiths)
+                    {
+                        if (TXB_Name.Text == item.Name)
+                        {
+                            MessageBox.Show("This username cant be used");
+                            TXB_Name.Text = "";
+                        }
+                    }
+                    Gunsmith gunsmith = new Gunsmith();
+                    gunsmith.UserName = username;
+                    gunsmith.Password = pass;
+                    gunsmith.Type = "Gunsmith";
+                    gunsmith.Base = basefromcombo;
+                    LBL_Base.Visible = true;
+                    TXB_Base.Visible = false;
+                    CMB_Base.Visible = true;
+
+                    ListGlosary.CurrentGunsmith = gunsmith;
+
+                    break;
+                case "Healer":
+                    foreach (var item in ListGlosary.listHealers)
+                    {
+                        if (TXB_Name.Text == item.Name)
+                        {
+                            MessageBox.Show("This username cant be used");
+                            TXB_Name.Text = "";
+                        }
+                    }
+                    Healer healer = new Healer();
+                    healer.UserName = username;
+                    healer.Password = pass;
+                    healer.Type = "Healer";
+                    healer.Base = basefromcombo;
+                    LBL_Base.Visible = true;
+                    TXB_Base.Visible = false;
+                    CMB_Base.Visible = true;
+                    ListGlosary.CurrentHealer = healer;
+
+
+                    break;
+                case "Distributor":
+                    foreach (var item in ListGlosary.listDistributors)
+                    {
+                        if (TXB_Name.Text == item.Name)
+                        {
+                            MessageBox.Show("This username cant be used");
+                            TXB_Name.Text = "";
+                        }
+                    }
+                    Distributor distributor = new Distributor();
+                    distributor.UserName = username;
+                    distributor.Password = pass;
+                    distributor.Type = "Distributor";
+                    LBL_Base.Visible = false;
+                    TXB_Base.Visible = false;
+                    CMB_Base.Visible = false;
+                    ListGlosary.CurrentDistributor = distributor;
+
+                    break;
+                default:
+                    LBL_Base.Visible = false;
+                    TXB_Base.Visible = false;
+                    CMB_Base.Visible = false;
+                    break;
             }
+
+            TXB_Base.Text = "";
+            CMB_Base.Text = "";
+            CMB_Rol.Text = "";
+            TXB_Name.Text = "";
+            TXB_Password.Text = "";
+
         }
     }
 }

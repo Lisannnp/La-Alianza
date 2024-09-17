@@ -7,13 +7,14 @@ using La_Alianza;
 
 public class Healer : BaseMember
 {
-    public Healer(string name, int id, string userName, string password, string type, Base @base) : base(name, id, userName, password, type, @base)
+    public Healer(string name, int id, string userName, string password, string type ) : base(name, id, userName, password, type)
     {
 
-        ListGlosary.listUsers.Add(this);
+        ListGlosary.listHealers.Add(this);
     }
     public Healer() : base()
     {
+        ListGlosary.listHealers.Add(this);
 
     }
     public override string ToString()

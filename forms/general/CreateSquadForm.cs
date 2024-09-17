@@ -1,14 +1,7 @@
-﻿using La_Alianza;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using System;
 using System.Drawing;
 using System.Drawing.Text;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace La_Alianza
@@ -19,6 +12,7 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+            CMB_Soldier.DataSource = ListGlosary.CurrentGeneral.Base.ListSoldiers;
         }
 
         private void BTN_General_Click(object sender, EventArgs e)
@@ -70,8 +64,29 @@ namespace La_Alianza
             BTN_Operation.Font = new Font(pfc.Families[0], 12, boldStyle);
             BTN_Plus.Font = new Font(pfc.Families[0], 8, boldStyle);
             BTN_General.Font = new Font(pfc.Families[0], 12, boldStyle);
-
             LBL_Title.Font = new Font(pfc.Families[0], 30, boldStyle);
+        }
+
+        private void BTN_Add_Click(object sender, EventArgs e)
+        {
+
+            foreach (var i in ListGlosary.CurrentGeneral.Base.ListSoldiers)
+            {
+                if (i.Name == CMB_Soldier.Text)
+                {
+                    ListGlosary.listSoldiersTemporary.Add(i);
+                }
+            }
+            DGV_Squads.DataSource = null;
+            DGV_Squads.DataSource = ListGlosary.listSoldiersTemporary;
+            DGV_Squads.Columns["status"].Visible = false;
+        }
+
+        private void BTN_CreateSquad_Click(object sender, EventArgs e)
+        {
+            ListGlosary.CurrentGeneral.MakeSquad();
+            ListGlosary.listSoldiersTemporary.Clear();
+            DGV_Squads.DataSource = null;
         }
     }
 }

@@ -19,6 +19,14 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+            DGV_GunList.DataSource = ListGlosary.CurrentGeneral.Base.ListGuns;
+            DGV_MedicineList.DataSource = ListGlosary.CurrentGeneral.Base.ListMedicines;
+            DGV_SoldierList.DataSource = ListGlosary.CurrentGeneral.Base.ListSoldiers;
+            DGV_SquadList.DataSource= ListGlosary.CurrentGeneral.Base.ListSquads;
+            DGV_GunList.Visible = false;
+            DGV_MedicineList.Visible = false;
+            DGV_SoldierList.Visible = false;
+            DGV_SquadList.Visible = false;
         }
 
         private void BTN_BackToGeneral_Click(object sender, EventArgs e)
@@ -47,6 +55,37 @@ namespace La_Alianza
 
 
             LBL_Title.Font = new Font(pfc.Families[0], 36, boldStyle);
+        }
+
+        private void CMB_List_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (CMB_List.Text)
+            {
+                case "Guns":
+                    DGV_GunList.Visible = true;
+                    DGV_MedicineList.Visible = false;
+                    DGV_SoldierList.Visible = false;
+                    DGV_SquadList.Visible = false;
+                    break;
+                case "Medicines":
+                    DGV_GunList.Visible = false;
+                    DGV_MedicineList.Visible = true;
+                    DGV_SoldierList.Visible = false;
+                    DGV_SquadList.Visible = false;
+                    break;
+                case "Soldiers":
+                    DGV_GunList.Visible = false;
+                    DGV_MedicineList.Visible = false;
+                    DGV_SoldierList.Visible = true;
+                    DGV_SquadList.Visible = false;
+                    break;
+                case "Squads":
+                    DGV_GunList.Visible = false;
+                    DGV_MedicineList.Visible = false;
+                    DGV_SoldierList.Visible = false;
+                    DGV_SquadList.Visible = true;
+                    break;
+            }
         }
     }
 }

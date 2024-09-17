@@ -7,15 +7,16 @@ using La_Alianza;
 
     public class Gunsmith:BaseMember
     {
-        public Gunsmith(string name, int id, string userName, string password, string type, Base @base) : base(name, id, userName, password, type, @base)
+        public Gunsmith(string name, int id, string userName, string password, string type) : base(name, id, userName, password, type)
         {
-            ListGlosary.listUsers.Add(this);
+            ListGlosary.listGunsmiths.Add(this);
         }
         public Gunsmith() : base()
         {
-            
+            ListGlosary.listGunsmiths.Add(this);
+
         }
-        public override string ToString()
+    public override string ToString()
         {
             return base.ToString();
         }

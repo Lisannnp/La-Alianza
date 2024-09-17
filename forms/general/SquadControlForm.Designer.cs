@@ -163,6 +163,7 @@
             this.BTN_RemoveFromSquad.TabIndex = 53;
             this.BTN_RemoveFromSquad.Text = "Remove from Squad";
             this.BTN_RemoveFromSquad.UseVisualStyleBackColor = false;
+            this.BTN_RemoveFromSquad.Click += new System.EventHandler(this.BTN_RemoveFromSquad_Click);
             // 
             // DGV_Squads
             // 
@@ -278,6 +279,7 @@
             this.CMB_Squad.Name = "CMB_Squad";
             this.CMB_Squad.Size = new System.Drawing.Size(158, 21);
             this.CMB_Squad.TabIndex = 46;
+            this.CMB_Squad.SelectedIndexChanged += new System.EventHandler(this.CMB_Squad_SelectedIndexChanged);
             // 
             // TableLayout2
             // 

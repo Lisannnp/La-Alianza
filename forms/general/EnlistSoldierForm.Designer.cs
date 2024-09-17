@@ -69,6 +69,7 @@
             this.BTN_Add.TabIndex = 41;
             this.BTN_Add.Text = "Add";
             this.BTN_Add.UseVisualStyleBackColor = false;
+            this.BTN_Add.Click += new System.EventHandler(this.BTN_Add_Click);
             // 
             // BTN_BackToGeneral
             // 

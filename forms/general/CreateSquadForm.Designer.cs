@@ -38,10 +38,10 @@
             this.TableLayout2 = new System.Windows.Forms.TableLayoutPanel();
             this.LBL_Title = new System.Windows.Forms.Label();
             this.PCB_Logo = new System.Windows.Forms.PictureBox();
-            this.DGV_Squads = new System.Windows.Forms.DataGridView();
             this.BTN_Add = new System.Windows.Forms.Button();
             this.BTN_CreateSquad = new System.Windows.Forms.Button();
             this.LBL_Soldier = new System.Windows.Forms.Label();
+            this.DGV_Squads = new System.Windows.Forms.DataGridView();
             this.Layout1.SuspendLayout();
             this.Layout4.SuspendLayout();
             this.Layout5.SuspendLayout();
@@ -59,10 +59,10 @@
             this.Layout1.Controls.Add(this.BTN_Operation, 0, 13);
             this.Layout1.Controls.Add(this.Layout4, 0, 4);
             this.Layout1.Controls.Add(this.TableLayout2, 0, 1);
-            this.Layout1.Controls.Add(this.DGV_Squads, 0, 8);
             this.Layout1.Controls.Add(this.BTN_Add, 0, 6);
             this.Layout1.Controls.Add(this.BTN_CreateSquad, 0, 11);
             this.Layout1.Controls.Add(this.LBL_Soldier, 0, 3);
+            this.Layout1.Controls.Add(this.DGV_Squads, 0, 8);
             this.Layout1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Layout1.Location = new System.Drawing.Point(0, 0);
             this.Layout1.Name = "Layout1";
@@ -220,18 +220,6 @@
             this.PCB_Logo.TabIndex = 38;
             this.PCB_Logo.TabStop = false;
             // 
-            // DGV_Squads
-            // 
-            this.DGV_Squads.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.DGV_Squads.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.DGV_Squads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_Squads.Location = new System.Drawing.Point(102, 216);
-            this.DGV_Squads.Margin = new System.Windows.Forms.Padding(0);
-            this.DGV_Squads.Name = "DGV_Squads";
-            this.DGV_Squads.RowHeadersWidth = 62;
-            this.DGV_Squads.Size = new System.Drawing.Size(230, 127);
-            this.DGV_Squads.TabIndex = 47;
-            // 
             // BTN_Add
             // 
             this.BTN_Add.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -246,6 +234,7 @@
             this.BTN_Add.TabIndex = 55;
             this.BTN_Add.Text = "Add";
             this.BTN_Add.UseVisualStyleBackColor = false;
+            this.BTN_Add.Click += new System.EventHandler(this.BTN_Add_Click);
             // 
             // BTN_CreateSquad
             // 
@@ -261,6 +250,7 @@
             this.BTN_CreateSquad.TabIndex = 56;
             this.BTN_CreateSquad.Text = "Create Squad";
             this.BTN_CreateSquad.UseVisualStyleBackColor = false;
+            this.BTN_CreateSquad.Click += new System.EventHandler(this.BTN_CreateSquad_Click);
             // 
             // LBL_Soldier
             // 
@@ -275,6 +265,18 @@
             this.LBL_Soldier.TabIndex = 42;
             this.LBL_Soldier.Text = "Soldier:";
             this.LBL_Soldier.UseWaitCursor = true;
+            // 
+            // DGV_Squads
+            // 
+            this.DGV_Squads.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.DGV_Squads.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.DGV_Squads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Squads.Location = new System.Drawing.Point(102, 216);
+            this.DGV_Squads.Margin = new System.Windows.Forms.Padding(0);
+            this.DGV_Squads.Name = "DGV_Squads";
+            this.DGV_Squads.RowHeadersWidth = 62;
+            this.DGV_Squads.Size = new System.Drawing.Size(230, 127);
+            this.DGV_Squads.TabIndex = 47;
             // 
             // CreateSquadForm
             // 

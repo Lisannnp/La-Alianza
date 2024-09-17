@@ -27,8 +27,9 @@ using La_Alianza;
             _itemID = ListGlosary.listItems.Count;
             _creator = new Scientist();
             _type = "";
+            ListGlosary.listItems.Add(this);
         }
-        public override string ToString()
+    public override string ToString()
         {
             return ItemID.ToString();
         }

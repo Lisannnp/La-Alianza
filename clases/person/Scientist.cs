@@ -1,4 +1,6 @@
 ﻿using La_Alianza;
+using System.Collections.Generic;
+using System.Linq;
 
 
 public class Scientist : User
@@ -6,11 +8,11 @@ public class Scientist : User
 
     public Scientist(string name, int id, string userName, string password, string type) : base(name, id, userName, password, type)
     {
-        ListGlosary.listUsers.Add(this);
+        ListGlosary.listScientists.Add(this);
     }
     public Scientist() : base()
     {
-
+        ListGlosary.listScientists.Add(this);
     }
     public override string ToString()
     {
@@ -33,10 +35,14 @@ public class Scientist : User
             return i;
         }
     }
-    public Cargament MakeCargament(Item i)
+    public Cargament MakeCargament()
     {
         Cargament c = new Cargament();
-        c.ListContents.Add(i);
+        foreach (var item in ListGlosary.listPacking)
+        {
+            c.ListContents.Add(item);
+            ListGlosary.listPacking.Remove(item);
+        }
         return c;
     }
 }

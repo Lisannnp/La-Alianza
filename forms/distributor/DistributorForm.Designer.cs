@@ -134,6 +134,7 @@
             this.BTN_Allocate.TabIndex = 48;
             this.BTN_Allocate.Text = "Allocate";
             this.BTN_Allocate.UseVisualStyleBackColor = false;
+            this.BTN_Allocate.Click += new System.EventHandler(this.BTN_Allocate_Click);
             // 
             // TableLayout2
             // 

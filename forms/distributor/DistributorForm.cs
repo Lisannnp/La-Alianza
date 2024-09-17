@@ -19,6 +19,8 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+            CMB_Base.DataSource = ListGlosary.listBases;
+            CMB_Cargament.DataSource = ListGlosary.listCargaments;
         }
 
         private void BTN_LogOut_Click(object sender, EventArgs e)
@@ -49,6 +51,15 @@ namespace La_Alianza
             BTN_LogOut.Font = new Font(pfc.Families[0], 12, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 35, boldStyle);
+        }
+
+        private void BTN_Allocate_Click(object sender, EventArgs e)
+        {
+            Base b = (Base)CMB_Base.SelectedItem;
+            Cargament c = (Cargament)CMB_Cargament.SelectedItem;
+            c.Destination = b;
+            c.Allocate();
+           
         }
     }
 }

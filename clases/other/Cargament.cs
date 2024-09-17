@@ -28,7 +28,8 @@ using La_Alianza;
             _cargamentID = ListGlosary.listCargaments.Count;
             _destination = new Base();
             _listContents = new List<Item>();
-        }
+            ListGlosary.listCargaments.Add(this);
+    }
         public override string ToString()
         {
             return _cargamentID.ToString();

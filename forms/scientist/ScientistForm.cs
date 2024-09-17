@@ -19,6 +19,7 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+            CMB_Item.DataSource = ListGlosary.listItems;
         }
 
         private void BTN_LogOut_Click(object sender, EventArgs e)
@@ -56,6 +57,19 @@ namespace La_Alianza
             BTN_Plus.Font = new Font(pfc.Families[0], 8, boldStyle);
 
             LBL_Title.Font = new Font(pfc.Families[0], 38, boldStyle);
+        }
+
+        private void BTN_Add_Click(object sender, EventArgs e)
+        {
+            ListGlosary.listItems.Remove((Item)CMB_Item.SelectedItem);
+            ListGlosary.listPacking.Add((Item)CMB_Item.SelectedItem);
+            DGV_Squads.DataSource = ListGlosary.listPacking;
+        }
+
+        private void BTN_AddPackage_Click(object sender, EventArgs e)
+        {
+            ListGlosary.CurrentScientist.MakeCargament();
+            DGV_Squads.Rows.Clear();
         }
     }
 }

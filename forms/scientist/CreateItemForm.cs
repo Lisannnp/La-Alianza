@@ -49,5 +49,10 @@ namespace La_Alianza
 
             LBL_Title.Font = new Font(pfc.Families[0], 38, boldStyle);
         }
+
+        private void BTN_Create_Click(object sender, EventArgs e)
+        {
+            ListGlosary.CurrentScientist.MakeItem(CMB_Category.Text);
+        }
     }
 }

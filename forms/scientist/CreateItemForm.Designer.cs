@@ -134,6 +134,7 @@
             this.BTN_Create.TabIndex = 48;
             this.BTN_Create.Text = "Create";
             this.BTN_Create.UseVisualStyleBackColor = false;
+            this.BTN_Create.Click += new System.EventHandler(this.BTN_Create_Click);
             // 
             // TableLayout2
             // 
@@ -187,6 +188,9 @@
             this.CMB_Category.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
             this.CMB_Category.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CMB_Category.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.CMB_Category.Items.AddRange(new object[] {
+            "Gun",
+            "Medicine"});
             this.CMB_Category.Location = new System.Drawing.Point(138, 237);
             this.CMB_Category.Margin = new System.Windows.Forms.Padding(0);
             this.CMB_Category.Name = "CMB_Category";

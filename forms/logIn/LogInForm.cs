@@ -63,14 +63,14 @@ namespace La_Alianza
             string username = TXB_Name.Text;
             string password = TXB_Password.Text;
 
-            foreach (var scientist in ListGlosary.listUsers){
+            foreach (var scientist in ListGlosary.listScientists){
                 if (scientist.UserName == username && scientist.Password == password){
                     ScientistForm scientistform = new ScientistForm();
                     scientistform.Show();
                     this.Hide();
                 }
             }
-            foreach (var general in ListGlosary.listUsers)
+            foreach (var general in ListGlosary.listGenerals)
             {
                 if (general.UserName == username && general.Password == password){
                     GeneralForm generalform = new GeneralForm();
@@ -78,7 +78,7 @@ namespace La_Alianza
                     this.Hide();
                 }
             }
-            foreach (var healer in ListGlosary.listUsers)
+            foreach (var healer in ListGlosary.listHealers)
             {
                 if (healer.UserName == username && healer.Password == password){
                     HealerForm healerform = new HealerForm();
@@ -86,7 +86,7 @@ namespace La_Alianza
                     this.Hide();
                 }
             }
-            foreach (var gunsmith in ListGlosary.listUsers)
+            foreach (var gunsmith in ListGlosary.listGunsmiths)
             {
                 if (gunsmith.UserName == username && gunsmith.Password == password){
                     GunsmithForm gunsmithform = new GunsmithForm();
@@ -94,7 +94,7 @@ namespace La_Alianza
                     this.Hide();
                 }
             }
-            foreach (var  distributor in ListGlosary.listUsers)
+            foreach (var  distributor in ListGlosary.listDistributors)
             {
                 if (distributor.UserName == username && distributor.Password == password){
                     DistributorForm distributorform = new DistributorForm();
