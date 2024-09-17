@@ -59,7 +59,8 @@ namespace La_Alianza
             Cargament c = (Cargament)CMB_Cargament.SelectedItem;
             c.Destination = b;
             c.Allocate();
-           
+            CMB_Base.Text = "";
+            CMB_Cargament.Text = "";
         }
     }
 }

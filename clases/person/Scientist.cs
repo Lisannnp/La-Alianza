@@ -18,32 +18,28 @@ public class Scientist : User
     {
         return base.ToString();
     }
-    public Item MakeItem(string type)
+    public void MakeItem(string type, string n)
     {
         if (type == "Medicine")
         {
             Item i = new Item();
             i.Creator = this;
             i.Type = "Medicine";
-            return i;
+            i.Name = n;
         }
         else
         {
             Item i = new Item();
             i.Creator = this;
             i.Type = "Gun";
-            return i;
+            i.Name = n;
         }
     }
-    public Cargament MakeCargament()
+    public void MakeCargament()
     {
         Cargament c = new Cargament();
-        foreach (var item in ListGlosary.listPacking)
-        {
-            c.ListContents.Add(item);
-            ListGlosary.listPacking.Remove(item);
-        }
-        return c;
+        c.ListContents = ListGlosary.listPacking;
+        ListGlosary.listPacking.Clear();
     }
 }
 

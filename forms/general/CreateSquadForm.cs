@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace La_Alianza
 {
@@ -74,9 +75,18 @@ namespace La_Alianza
             {
                 if (i.Name == CMB_Soldier.Text)
                 {
-                    ListGlosary.listSoldiersTemporary.Add(i);
+                    bool soldierExists = ListGlosary.listSoldiersTemporary.Any(s => s.Name == i.Name);
+                    if (!soldierExists)
+                    {
+                        ListGlosary.listSoldiersTemporary.Add(i);
+                    }
+                    else
+                    {
+                        MessageBox.Show("The soldier already exist in the list");
+                    }
                 }
             }
+
             DGV_Squads.DataSource = null;
             DGV_Squads.DataSource = ListGlosary.listSoldiersTemporary;
             DGV_Squads.Columns["status"].Visible = false;

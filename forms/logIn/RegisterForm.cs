@@ -93,11 +93,13 @@ namespace La_Alianza
                     LBL_Base.Visible = true;
                     TXB_Base.Visible = false;
                     CMB_Base.Visible = true;
+                    CMB_Base.DataSource = ListGlosary.listBases;
                     break;
                 case "Healer":
                     LBL_Base.Visible = true;
                     TXB_Base.Visible = false;
                     CMB_Base.Visible = true;
+                    CMB_Base.DataSource = ListGlosary.listBases;
                     break;
                 case "Distributor":
                     LBL_Base.Visible = false;
@@ -155,7 +157,6 @@ namespace La_Alianza
                     general.UserName = username;
                     general.Password = pass;
                     general.Type = "General";
-                    general.Base.Name = baseSelected;
                     LBL_Base.Visible = true;
                     TXB_Base.Visible = true;
                     CMB_Base.Visible = false;

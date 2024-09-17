@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.Layout1 = new System.Windows.Forms.TableLayoutPanel();
-            this.BTN_Exit = new System.Windows.Forms.Button();
+            this.BTN_Scientist = new System.Windows.Forms.Button();
             this.LBL_Name = new System.Windows.Forms.Label();
             this.LBL_Category = new System.Windows.Forms.Label();
             this.BTN_Create = new System.Windows.Forms.Button();
@@ -48,7 +48,7 @@
             this.Layout1.BackColor = System.Drawing.Color.Transparent;
             this.Layout1.ColumnCount = 1;
             this.Layout1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.Layout1.Controls.Add(this.BTN_Exit, 0, 11);
+            this.Layout1.Controls.Add(this.BTN_Scientist, 0, 11);
             this.Layout1.Controls.Add(this.LBL_Name, 0, 3);
             this.Layout1.Controls.Add(this.LBL_Category, 0, 6);
             this.Layout1.Controls.Add(this.BTN_Create, 0, 9);
@@ -76,21 +76,21 @@
             this.Layout1.Size = new System.Drawing.Size(434, 411);
             this.Layout1.TabIndex = 54;
             // 
-            // BTN_Exit
+            // BTN_Scientist
             // 
-            this.BTN_Exit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BTN_Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.BTN_Exit.FlatAppearance.BorderSize = 0;
-            this.BTN_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTN_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.BTN_Exit.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BTN_Exit.Location = new System.Drawing.Point(138, 349);
-            this.BTN_Exit.Name = "BTN_Exit";
-            this.BTN_Exit.Size = new System.Drawing.Size(158, 35);
-            this.BTN_Exit.TabIndex = 49;
-            this.BTN_Exit.Text = "Exit";
-            this.BTN_Exit.UseVisualStyleBackColor = false;
-            this.BTN_Exit.Click += new System.EventHandler(this.BTN_Exit_Click);
+            this.BTN_Scientist.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BTN_Scientist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.BTN_Scientist.FlatAppearance.BorderSize = 0;
+            this.BTN_Scientist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTN_Scientist.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.BTN_Scientist.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BTN_Scientist.Location = new System.Drawing.Point(138, 349);
+            this.BTN_Scientist.Name = "BTN_Scientist";
+            this.BTN_Scientist.Size = new System.Drawing.Size(158, 35);
+            this.BTN_Scientist.TabIndex = 49;
+            this.BTN_Scientist.Text = "Back to Scientist";
+            this.BTN_Scientist.UseVisualStyleBackColor = false;
+            this.BTN_Scientist.Click += new System.EventHandler(this.BTN_Scientist_Click);
             // 
             // LBL_Name
             // 
@@ -232,7 +232,7 @@
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel Layout1;
-        private System.Windows.Forms.Button BTN_Exit;
+        private System.Windows.Forms.Button BTN_Scientist;
         private System.Windows.Forms.Label LBL_Name;
         private System.Windows.Forms.Label LBL_Category;
         private System.Windows.Forms.Button BTN_Create;

@@ -25,10 +25,11 @@ namespace La_Alianza
             {
                 if(i == ListGlosary.CurrentHealer)
                 {
-                    h = i;
-                    CMB_Soldier.DataSource = i.Base.ListSoldiers;
+                    List<Soldier> soldi = ListGlosary.listSoldiersTemporary.Where(c => c.Status == true).ToList();
+                    CMB_Soldier.DataSource = soldi;
                 }
             }
+           
         }
 
         private void BTN_LogOut_Click(object sender, EventArgs e)

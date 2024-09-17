@@ -13,8 +13,8 @@ using La_Alianza;
         private List<Item> _listContents = new List<Item>();
 
         public int CargamentID { get => _cargamentID; set => _cargamentID = value; }
-        internal Base Destination { get => _destination; set => _destination = value; }
-        internal List<Item> ListContents { get => _listContents; set => _listContents = value; }
+        public Base Destination { get => _destination; set => _destination = value; }
+        public List<Item> ListContents { get => _listContents; set => _listContents = value; }
 
         public Cargament(int cargamentID, Base destination, List<Item> listContents)
         {
@@ -26,7 +26,6 @@ using La_Alianza;
         public Cargament()
         {
             _cargamentID = ListGlosary.listCargaments.Count;
-            _destination = new Base();
             _listContents = new List<Item>();
             ListGlosary.listCargaments.Add(this);
     }

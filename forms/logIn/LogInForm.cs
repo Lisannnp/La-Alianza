@@ -1,21 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace La_Alianza
 {
 
     public partial class LogInForm : Form
     {
-            public LogInForm()
+        public LogInForm()
         {
             InitializeComponent();
             InitAirborneFont();
@@ -63,8 +57,10 @@ namespace La_Alianza
             string username = TXB_Name.Text;
             string password = TXB_Password.Text;
 
-            foreach (var scientist in ListGlosary.listScientists){
-                if (scientist.UserName == username && scientist.Password == password){
+            foreach (var scientist in ListGlosary.listScientists)
+            {
+                if (scientist.UserName == username && scientist.Password == password)
+                {
                     ScientistForm scientistform = new ScientistForm();
                     scientistform.Show();
                     this.Hide();
@@ -72,7 +68,8 @@ namespace La_Alianza
             }
             foreach (var general in ListGlosary.listGenerals)
             {
-                if (general.UserName == username && general.Password == password){
+                if (general.UserName == username && general.Password == password)
+                {
                     GeneralForm generalform = new GeneralForm();
                     generalform.Show();
                     this.Hide();
@@ -80,7 +77,8 @@ namespace La_Alianza
             }
             foreach (var healer in ListGlosary.listHealers)
             {
-                if (healer.UserName == username && healer.Password == password){
+                if (healer.UserName == username && healer.Password == password)
+                {
                     HealerForm healerform = new HealerForm();
                     healerform.Show();
                     this.Hide();
@@ -88,23 +86,25 @@ namespace La_Alianza
             }
             foreach (var gunsmith in ListGlosary.listGunsmiths)
             {
-                if (gunsmith.UserName == username && gunsmith.Password == password){
+                if (gunsmith.UserName == username && gunsmith.Password == password)
+                {
                     GunsmithForm gunsmithform = new GunsmithForm();
                     gunsmithform.Show();
                     this.Hide();
                 }
             }
-            foreach (var  distributor in ListGlosary.listDistributors)
+            foreach (var distributor in ListGlosary.listDistributors)
             {
-                if (distributor.UserName == username && distributor.Password == password){
+                if (distributor.UserName == username && distributor.Password == password)
+                {
                     DistributorForm distributorform = new DistributorForm();
                     distributorform.Show();
                     this.Hide();
                 }
 
             }
-            
-            
+
+
         }
     }
 }

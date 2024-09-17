@@ -45,6 +45,6 @@ public class Base
 
     public override string ToString()
     {
-        return _baseID.ToString();
+        return $"{_name} ID:{_baseID}";
     }
 }

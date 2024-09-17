@@ -10,15 +10,13 @@ using La_Alianza;
     {
         private Base _base;
 
-        internal Base Base { get => _base; set => _base = value; }
+        public Base Base { get => _base; set => _base = value; }
 
         public BaseMember(string name, int id, string userName, string password, string type):base(name, id, userName, password, type)
         {
-            //_base = @base;
         }
         public BaseMember() : base()
         {
-            //_base = new Base();
         }
         public override string ToString()
         {

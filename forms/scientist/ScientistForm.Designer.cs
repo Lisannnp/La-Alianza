@@ -170,6 +170,7 @@
             this.CMB_Item.Name = "CMB_Item";
             this.CMB_Item.Size = new System.Drawing.Size(158, 21);
             this.CMB_Item.TabIndex = 46;
+            this.CMB_Item.SelectedIndexChanged += new System.EventHandler(this.CMB_Item_SelectedIndexChanged);
             // 
             // BTN_Plus
             // 

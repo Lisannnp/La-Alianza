@@ -8,9 +8,9 @@ public class Squad
     private List<Soldier> _listSquadsSoldiers = new List<Soldier>();  
 
     public int SquadID { get => _squadID; set => _squadID = value; }
-    internal Base CurrentBase { get => _currentBase; set => _currentBase = value; }
+    public Base CurrentBase { get => _currentBase; set => _currentBase = value; }
 
-    internal List<Soldier> ListSquadsSoldiers { get => _listSquadsSoldiers; set => _listSquadsSoldiers = value; }
+    public List<Soldier> ListSquadsSoldiers { get => _listSquadsSoldiers; set => _listSquadsSoldiers = value; }
 
     public Squad(int squadID, Base currentBase, List<Soldier> listSquadsSoldiers)
     {
@@ -27,7 +27,6 @@ public class Squad
         currentBase.ListSquads.Add(this);
         _listSquadsSoldiers = new List<Soldier>();  
     }
-
 
     public void AddSoldier(Soldier s)
     {
