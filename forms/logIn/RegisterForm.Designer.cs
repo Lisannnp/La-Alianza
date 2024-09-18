@@ -37,16 +37,16 @@ namespace La_Alianza
             this.LBL_Rol = new System.Windows.Forms.Label();
             this.CMB_Rol = new System.Windows.Forms.ComboBox();
             this.LBL_Base = new System.Windows.Forms.Label();
-            this.TXB_Base = new System.Windows.Forms.TextBox();
             this.BTN_Exit = new System.Windows.Forms.Button();
             this.LBL_Title = new System.Windows.Forms.Label();
             this.TableLayout1 = new System.Windows.Forms.TableLayoutPanel();
+            this.CMB_Base = new System.Windows.Forms.ComboBox();
             this.FlowLayout1 = new System.Windows.Forms.FlowLayoutPanel();
             this.TableLayout2 = new System.Windows.Forms.TableLayoutPanel();
             this.PCB_Logo = new System.Windows.Forms.PictureBox();
             this.BTN_Register = new System.Windows.Forms.Button();
-            this.Layout3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.CMB_Base = new System.Windows.Forms.ComboBox();
+            this.TXB_Base = new System.Windows.Forms.TextBox();
+            this.Layout3 = new System.Windows.Forms.Panel();
             this.TableLayout1.SuspendLayout();
             this.FlowLayout1.SuspendLayout();
             this.TableLayout2.SuspendLayout();
@@ -182,19 +182,6 @@ namespace La_Alianza
             this.LBL_Base.UseWaitCursor = true;
             this.LBL_Base.Visible = false;
             // 
-            // TXB_Base
-            // 
-            this.TXB_Base.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.TXB_Base.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.TXB_Base.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TXB_Base.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.TXB_Base.Location = new System.Drawing.Point(0, 4);
-            this.TXB_Base.Margin = new System.Windows.Forms.Padding(0);
-            this.TXB_Base.Name = "TXB_Base";
-            this.TXB_Base.Size = new System.Drawing.Size(158, 13);
-            this.TXB_Base.TabIndex = 14;
-            this.TXB_Base.Visible = false;
-            // 
             // BTN_Exit
             // 
             this.BTN_Exit.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -228,7 +215,6 @@ namespace La_Alianza
             this.LBL_Title.TabIndex = 37;
             this.LBL_Title.Text = "REGISTER";
             this.LBL_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            //this.LBL_Title.Click += new System.EventHandler(this.LBL_Title_Click);
             // 
             // TableLayout1
             // 
@@ -276,6 +262,18 @@ namespace La_Alianza
             this.TableLayout1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 1.500103F));
             this.TableLayout1.Size = new System.Drawing.Size(434, 511);
             this.TableLayout1.TabIndex = 38;
+            // 
+            // CMB_Base
+            // 
+            this.CMB_Base.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.CMB_Base.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.CMB_Base.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CMB_Base.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.CMB_Base.Location = new System.Drawing.Point(139, 3);
+            this.CMB_Base.Margin = new System.Windows.Forms.Padding(0);
+            this.CMB_Base.Name = "CMB_Base";
+            this.CMB_Base.Size = new System.Drawing.Size(158, 21);
+            this.CMB_Base.TabIndex = 51;
             // 
             // FlowLayout1
             // 
@@ -334,6 +332,19 @@ namespace La_Alianza
             this.BTN_Register.UseVisualStyleBackColor = false;
             this.BTN_Register.Click += new System.EventHandler(this.BTN_Register_Click);
             // 
+            // TXB_Base
+            // 
+            this.TXB_Base.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.TXB_Base.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
+            this.TXB_Base.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TXB_Base.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.TXB_Base.Location = new System.Drawing.Point(139, 6);
+            this.TXB_Base.Margin = new System.Windows.Forms.Padding(0);
+            this.TXB_Base.Name = "TXB_Base";
+            this.TXB_Base.Size = new System.Drawing.Size(158, 13);
+            this.TXB_Base.TabIndex = 14;
+            this.TXB_Base.Visible = false;
+            // 
             // Layout3
             // 
             this.Layout3.Controls.Add(this.TXB_Base);
@@ -343,19 +354,7 @@ namespace La_Alianza
             this.Layout3.Margin = new System.Windows.Forms.Padding(0);
             this.Layout3.Name = "Layout3";
             this.Layout3.Size = new System.Drawing.Size(434, 30);
-            this.Layout3.TabIndex = 50;
-            // 
-            // CMB_Base
-            // 
-            this.CMB_Base.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.CMB_Base.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.CMB_Base.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CMB_Base.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.CMB_Base.Location = new System.Drawing.Point(158, 0);
-            this.CMB_Base.Margin = new System.Windows.Forms.Padding(0);
-            this.CMB_Base.Name = "CMB_Base";
-            this.CMB_Base.Size = new System.Drawing.Size(158, 21);
-            this.CMB_Base.TabIndex = 51;
+            this.Layout3.TabIndex = 52;
             // 
             // RegisterForm
             // 
@@ -390,7 +389,6 @@ namespace La_Alianza
         private System.Windows.Forms.Label LBL_Rol;
         private System.Windows.Forms.ComboBox CMB_Rol;
         private System.Windows.Forms.Label LBL_Base;
-        private System.Windows.Forms.TextBox TXB_Base;
         private System.Windows.Forms.Button BTN_Exit;
         private System.Windows.Forms.Label LBL_Title;
         private System.Windows.Forms.TableLayoutPanel TableLayout1;
@@ -398,7 +396,8 @@ namespace La_Alianza
         private System.Windows.Forms.TableLayoutPanel TableLayout2;
         private System.Windows.Forms.PictureBox PCB_Logo;
         private System.Windows.Forms.Button BTN_Register;
-        private System.Windows.Forms.FlowLayoutPanel Layout3;
         private System.Windows.Forms.ComboBox CMB_Base;
+        private System.Windows.Forms.Panel Layout3;
+        private System.Windows.Forms.TextBox TXB_Base;
     }
 }

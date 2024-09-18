@@ -238,7 +238,5 @@ namespace La_Alianza
             TXB_Password.Text = "";
 
         }
-
-       
     }
 }
