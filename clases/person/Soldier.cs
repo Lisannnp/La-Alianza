@@ -22,7 +22,7 @@ public class Soldier : Person
     }
     public Soldier(Base @base)
     {
-        _gun = new Item();
+        _gun = null;
         _status = true;
         _base = @base;
         @base.ListSoldiers.Add(this);

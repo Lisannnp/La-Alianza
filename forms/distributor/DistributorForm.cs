@@ -62,5 +62,6 @@ namespace La_Alianza
             CMB_Base.Text = "";
             CMB_Cargament.Text = "";
         }
+
     }
 }

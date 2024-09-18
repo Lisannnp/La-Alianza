@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 
 public class Cargament
@@ -33,6 +34,18 @@ public class Cargament
     public void Allocate()
     {
         Console.WriteLine("entre al metodo");
+        if (ListContents == null)
+        {
+            Console.WriteLine("ListContents es null");
+            return; // Termina la ejecución del método si la lista es null.
+        }
+
+        if (!ListContents.Any())
+        {
+            Console.WriteLine("ListContents está vacía");
+            return; // Termina la ejecución del método si la lista está vacía.
+        }
+
         foreach (var i in ListContents)
         {
             Console.WriteLine("entre al foreach");
@@ -40,7 +53,6 @@ public class Cargament
                 if (i.Type == "Gun")
                 {
                     _destination.ListGuns.Add(i);
-                    Console.WriteLine("entre al if");
                 }
                 else
                 {

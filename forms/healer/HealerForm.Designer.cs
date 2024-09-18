@@ -127,7 +127,7 @@
             this.LBL_Title.Cursor = System.Windows.Forms.Cursors.Default;
             this.LBL_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
             this.LBL_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(188)))), ((int)(((byte)(57)))));
-            this.LBL_Title.Location = new System.Drawing.Point(117, 0);
+            this.LBL_Title.Location = new System.Drawing.Point(118, 0);
             this.LBL_Title.Margin = new System.Windows.Forms.Padding(0);
             this.LBL_Title.Name = "LBL_Title";
             this.LBL_Title.Size = new System.Drawing.Size(195, 86);
@@ -174,6 +174,7 @@
             this.BTN_Heal.TabIndex = 48;
             this.BTN_Heal.Text = "Heal";
             this.BTN_Heal.UseVisualStyleBackColor = false;
+            this.BTN_Heal.Click += new System.EventHandler(this.BTN_Heal_Click_1);
             // 
             // HealerForm
             // 

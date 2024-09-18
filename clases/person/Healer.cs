@@ -23,7 +23,9 @@ public class Healer : BaseMember
     }
     public void HealSoldier(Soldier s)
     {
+        Console.WriteLine("mi abuela es una genia");
         s.Status = true;
         Base.ListMedicines.RemoveAt(0);
+        Console.WriteLine($"new status for {s.Name} is {s.Status}");
     }
 }

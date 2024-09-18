@@ -205,6 +205,7 @@
             this.CMB_Cargament.Name = "CMB_Cargament";
             this.CMB_Cargament.Size = new System.Drawing.Size(158, 21);
             this.CMB_Cargament.TabIndex = 59;
+          
             // 
             // DistributorForm
             // 

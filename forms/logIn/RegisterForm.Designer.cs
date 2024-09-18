@@ -228,6 +228,7 @@ namespace La_Alianza
             this.LBL_Title.TabIndex = 37;
             this.LBL_Title.Text = "REGISTER";
             this.LBL_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //this.LBL_Title.Click += new System.EventHandler(this.LBL_Title_Click);
             // 
             // TableLayout1
             // 

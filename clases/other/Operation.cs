@@ -34,34 +34,43 @@ public class Operation
                 if (random.Next(100) < 80)
                 {
                     foreach (var item in s.ListSquadsSoldiers) { item.Status = true; }
+                    MessageBox.Show("Mission succesfull, all soldiers healthy");
                 }
                 else
                 {
                     foreach (var item in s.ListSquadsSoldiers) { item.Status = false; }
+                    MessageBox.Show("Mission failed, all soldiers injured");
                 }
                 break;
             case 2:
                 if (random.Next(100) < 50)
                 {
                     foreach (var item in s.ListSquadsSoldiers) { item.Status = true; }
+                    MessageBox.Show("Mission succesfull, all soldiers healthy");
                 }
                 else
                 {
                     foreach (var item in s.ListSquadsSoldiers) { item.Status = false; }
+                    MessageBox.Show("Mission failed, all soldiers injured");
                 }
                 break;
             case 3:
                 if (random.Next(100) < 30)
                 {
                     foreach (var item in s.ListSquadsSoldiers) { item.Status = true; }
+                    MessageBox.Show("Mission succesfull, all soldiers healthy");
                 }
                 else
                 {
                     foreach (var item in s.ListSquadsSoldiers) { item.Status = false; }
+                    MessageBox.Show("Mission failed, all soldiers injured");
                 }
                 break;
         }
-
+        foreach(var a in s.ListSquadsSoldiers)
+        {
+            Console.WriteLine($"Nombre: {a.Name}, Status: {a.Status}");
+        }
 
     }
     public override string ToString()

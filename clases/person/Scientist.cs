@@ -39,7 +39,7 @@ public class Scientist : User
     public void MakeCargament()
     {
         Cargament c = new Cargament();
-        c.ListContents = ListGlosary.listPacking;
+        c.ListContents = new List<Item>(ListGlosary.listPacking);
         ListGlosary.listPacking.Clear();
     }
 }

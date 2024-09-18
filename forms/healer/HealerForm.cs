@@ -21,15 +21,17 @@ namespace La_Alianza
             InitializeComponent();
             InitAirborneFont();
 
+
             foreach (var i in ListGlosary.listHealers)
             {
-                if(i == ListGlosary.CurrentHealer)
+                if (i == ListGlosary.CurrentHealer)
                 {
-                    List<Soldier> soldiert = ListGlosary.listSoldiersTemporary.Where(c => c.Status == true).ToList();
-                   // CMB_Soldier.DataSource = soldi;
+                    h = i;
+                    CMB_Soldier.DataSource = i.Base.ListSoldiers;
+                    
                 }
             }
-           
+
         }
 
         private void BTN_LogOut_Click(object sender, EventArgs e)
@@ -59,7 +61,11 @@ namespace La_Alianza
 
             LBL_Title.Font = new Font(pfc.Families[0], 42, boldStyle);
         }
-        public void BTN_Heal_Click(object sender, EventArgs e){
+        
+
+        private void BTN_Heal_Click_1(object sender, EventArgs e)
+        {
+            Console.WriteLine("el boton de healclick funca anashe");
             Soldier soldier = (Soldier)CMB_Soldier.SelectedItem;
             h.HealSoldier(soldier);
         }

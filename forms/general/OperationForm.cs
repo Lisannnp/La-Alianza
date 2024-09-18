@@ -19,6 +19,8 @@ namespace La_Alianza
         {
             InitializeComponent();
             InitAirborneFont();
+            CMB_Operation.DataSource = null;
+            CMB_Squad.DataSource = null;
             CMB_Operation.DataSource = ListGlosary.listOperations;
             CMB_Squad.DataSource = ListGlosary.CurrentGeneral.Base.ListSquads;
         }

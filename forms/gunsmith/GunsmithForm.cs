@@ -28,8 +28,11 @@ namespace La_Alianza
                 {
                     g = i;
                     CMB_Soldier.DataSource = i.Base.ListSoldiers;
+                    CMB_Gun.DataSource = i.Base.ListGuns;
                 }
             }
+
+            
         }
 
         private void BTN_LogOut_Click(object sender, EventArgs e)
@@ -69,5 +72,7 @@ namespace La_Alianza
 
             g.AssignGun(soldier, gun);
         }
+
+        
     }
 }
